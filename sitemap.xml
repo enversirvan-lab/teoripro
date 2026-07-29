@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- ANA GİRİŞ SAYFASI -->
+  <url><loc>https://teoripro.netlify.app/</loc><priority>1.00</priority></url>
+
+  <!-- TÜRKÇE (TR) SAYFALARI -->
+  <url><loc>https://teoripro.netlify.app/tr/</loc><priority>0.90</priority></url>
+  <url><loc>https://teoripro.netlify.app/tr/sinav.html</loc><priority>0.85</priority></url>
+  <url><loc>https://teoripro.netlify.app/tr/hakkimizda.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/tr/iletisim.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/tr/gizlilik.html</loc><priority>0.30</priority></url>
+
+  <!-- İSVEÇÇE (SV) SAYFALARI -->
+  <url><loc>https://teoripro.netlify.app/sv/</loc><priority>0.90</priority></url>
+  <url><loc>https://teoripro.netlify.app/sv/sinav.html</loc><priority>0.85</priority></url>
+  <url><loc>https://teoripro.netlify.app/sv/hakkimizda.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/sv/iletisim.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/sv/gizlilik.html</loc><priority>0.30</priority></url>
+
+  <!-- İNGİLİZCE (EN) SAYFALARI -->
+  <url><loc>https://teoripro.netlify.app/en/</loc><priority>0.90</priority></url>
+  <url><loc>https://teoripro.netlify.app/en/sinav.html</loc><priority>0.85</priority></url>
+  <url><loc>https://teoripro.netlify.app/en/hakkimizda.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/en/iletisim.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/en/gizlilik.html</loc><priority>0.30</priority></url>
+
+  <!-- ARAPÇA (AR) SAYFALARI -->
+  <url><loc>https://teoripro.netlify.app/ar/</loc><priority>0.90</priority></url>
+  <url><loc>https://teoripro.netlify.app/ar/sinav.html</loc><priority>0.85</priority></url>
+  <url><loc>https://teoripro.netlify.app/ar/hakkimizda.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/ar/iletisim.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/ar/gizlilik.html</loc><priority>0.30</priority></url>
+
+  <!-- ============================================= -->
+  <!--  FARSÇA (IR) SAYFALARI - YENİ EKLENDİ         -->
+  <!-- ============================================= -->
+  <url><loc>https://teoripro.netlify.app/ir/</loc><priority>0.90</priority></url>
+  <url><loc>https://teoripro.netlify.app/ir/sinav.html</loc><priority>0.85</priority></url>
+  <url><loc>https://teoripro.netlify.app/ir/hakkimizda.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/ir/iletisim.html</loc><priority>0.50</priority></url>
+  <url><loc>https://teoripro.netlify.app/ir/gizlilik.html</loc><priority>0.30</priority></url>
+</urlset>

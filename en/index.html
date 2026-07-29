@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish Driving License Theory Test | 484 Practice Questions & Real Simulation</title>
+    
+    <meta name="description" content="Prepare for the Swedish driving license theory test with 484 current questions, 50 practice tests, real simulation and instant results. Adapted to the 2026 Swedish Transport Agency curriculum.">
+    <meta name="keywords" content="Swedish driving test, theory test, Swedish traffic test, driving license questions, Transport Agency, körkort, teoriprov, practice test, driving exam, Sweden driving license">
+    <meta property="og:title" content="Swedish Driving License Theory Test | 484 Practice Questions">
+    <meta property="og:description" content="Prepare for the Swedish driving license theory test with 484 current questions, 50 practice tests, real simulation and instant results.">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://teoripro.netlify.app/en/index.html">
+    
+    <!-- HREFLANG ETİKETLERİ (TÜM DİLLER İÇİN) -->
+    <link rel="alternate" hreflang="sv" href="https://teoripro.netlify.app/sv/index.html" />
+    <link rel="alternate" hreflang="tr" href="https://teoripro.netlify.app/tr/index.html" />
+    <link rel="alternate" hreflang="ar" href="https://teoripro.netlify.app/ar/index.html" />
+    <link rel="alternate" hreflang="en" href="https://teoripro.netlify.app/en/index.html" />
+    <link rel="alternate" hreflang="fa" href="https://teoripro.netlify.app/ir/index.html" />
+    <link rel="alternate" hreflang="x-default" href="https://teoripro.netlify.app/" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-dark: #090d16;
+            --bg-card: #111827;
+            --accent-gold: #f59e0b;
+            --accent-blue: #3b82f6;
+            --text-main: #ffffff;
+            --text-muted: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --correct-green: #10b981;
+            --wrong-red: #ef4444;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: -200px;
+            right: -100px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        body::after {
+            content: '';
+            position: absolute;
+            bottom: -100px;
+            left: -100px;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, transparent 70%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        header {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 40px 20px 20px 20px;
+            text-align: center;
+            z-index: 10;
+            position: relative;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 99px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(32px, 5vw, 54px);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: clamp(16px, 2vw, 20px);
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 20px 60px 20px;
+            z-index: 10;
+            overflow-x: hidden;
+        }
+
+        .exam-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 992px) {
+            .exam-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 16px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .exam-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .exam-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+        }
+
+        .exam-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 16px 14px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 160px;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                        box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                        border-color 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .exam-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px -12px rgba(245, 158, 11, 0.25);
+            border-color: var(--accent-gold);
+        }
+
+        .exam-card .exam-icon {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+                        color 0.3s ease;
+        }
+
+        .exam-card:hover .exam-icon {
+            transform: scale(1.15) rotate(-3deg);
+            color: #fbbf24;
+        }
+
+        .exam-card h3 {
+            transition: color 0.3s ease;
+        }
+
+        .exam-card:hover h3 {
+            color: var(--accent-gold);
+        }
+
+        .exam-card:active {
+            transform: scale(0.97);
+            transition-duration: 0.1s;
+        }
+
+        .exam-card h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .exam-card p {
+            font-size: 12px;
+            color: var(--text-muted);
+            line-height: 1.4;
+            margin-bottom: 14px;
+        }
+
+        .exam-icon {
+            font-size: 28px;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+        }
+
+        /* ★★★ TEST STATUS DOTS - TOP LEFT CORNER ★★★ */
+        .test-dot {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            animation: pulse-dot 1.5s ease-in-out infinite;
+            z-index: 5;
+            box-shadow: 0 0 12px rgba(0,0,0,0.4);
+            border: 2px solid rgba(255,255,255,0.15);
+            flex-shrink: 0;
+        }
+        .test-dot.green { background-color: var(--correct-green); }
+        .test-dot.yellow { background-color: var(--accent-gold); }
+        .test-dot.red { background-color: var(--wrong-red); }
+
+        @keyframes pulse-dot {
+            0% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.85); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        .exam-icon-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            margin-bottom: 10px;
+        }
+
+        .start-btn {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #d97706 100%);
+            color: #000;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 13px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        /* ★★★ RESET BUTTON ★★★ */
+        .reset-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #ef4444;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            z-index: 20;
+            touch-action: manipulation;
+        }
+        .reset-btn:hover {
+            background: rgba(239, 68, 68, 0.25);
+            border-color: rgba(239, 68, 68, 0.5);
+            transform: scale(1.02);
+        }
+        .reset-btn:active {
+            transform: scale(0.95);
+        }
+
+        @media (max-width: 768px) {
+            .reset-btn {
+                top: 10px;
+                right: 10px;
+                font-size: 11px;
+                padding: 6px 10px;
+            }
+            .test-dot {
+                width: 18px;
+                height: 18px;
+                top: 8px;
+                left: 8px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .exam-card {
+                padding: 12px 10px;
+                min-height: 140px;
+                border-radius: 12px;
+            }
+            
+            .exam-card:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 10px 20px -8px rgba(245, 158, 11, 0.15);
+            }
+            
+            .exam-card h3 {
+                font-size: 15px;
+            }
+            
+            .exam-card p {
+                font-size: 11px;
+                margin-bottom: 10px;
+            }
+            
+            .exam-card .exam-icon {
+                font-size: 22px;
+                margin-bottom: 6px;
+            }
+            
+            .start-btn {
+                font-size: 12px;
+                padding: 8px 12px;
+                border-radius: 8px;
+            }
+            
+            .exam-card:hover .exam-icon {
+                transform: scale(1.05);
+            }
+
+            .test-dot {
+                width: 16px;
+                height: 16px;
+                top: 6px;
+                left: 6px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .exam-card {
+                padding: 10px 8px;
+                min-height: 120px;
+            }
+            
+            .exam-card h3 {
+                font-size: 14px;
+            }
+            
+            .exam-card p {
+                font-size: 10px;
+            }
+            
+            .exam-card .exam-icon {
+                font-size: 18px;
+            }
+            
+            .start-btn {
+                font-size: 11px;
+                padding: 6px 10px;
+            }
+
+            .test-dot {
+                width: 14px;
+                height: 14px;
+                top: 5px;
+                left: 5px;
+            }
+        }
+
+        .info-section {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .info-section h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--accent-gold);
+        }
+
+        .info-section p {
+            color: var(--text-muted);
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 600px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .info-item {
+            background: rgba(255, 255, 255, 0.02);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 12px;
+            color: #cbd5e1;
+        }
+
+        footer {
+            margin-top: auto;
+            border-top: 1px solid var(--border-color);
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+            z-index: 10;
+        }
+
+        footer a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <button class="reset-btn" id="resetBtn" onclick="resetAllProgress()">
+            <i class="fa-solid fa-trash-can"></i> Reset
+        </button>
+        <div class="logo">
+            <i class="fa-solid fa-car"></i> Swedish Question Bank
+        </div>
+        <h1>Swedish Driving License Theory Test</h1>
+        <p class="subtitle">A real simulation of the Swedish theory test according to the Swedish Transport Agency's curriculum. Prepare with 484 questions across 50 practice tests.</p>
+    </header>
+
+    <!-- ============================================= -->
+    <!--  REKLAM KODU BAŞLIĞIN HEMEN ALTINDA          -->
+    <!-- ============================================= -->
+    <div style="display: flex; justify-content: center; margin-top: 10px; margin-bottom: 30px; padding: 0 20px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+        <script>
+            atOptions = {
+                'key' : '49c8d4a26e927144c6ed0d0ee5d4c993',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+            };
+        </script>
+        <script src="https://www.highperformanceformat.com/49c8d4a26e927144c6ed0d0ee5d4c993/invoke.js"></script>
+    </div>
+
+    <main>
+        
+        <div id="homeView">
+            
+            <div class="exam-grid">
+                <!-- Test 1 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=1'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i></div>
+                        </div>
+                        <h3>Test 1</h3>
+                        <p>General preparatory questions for the Swedish driving test - Practice Test 1.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 2 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=2'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i></div>
+                        </div>
+                        <h3>Test 2</h3>
+                        <p>General preparatory questions for the Swedish driving test - Practice Test 2.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 3 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=3'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i></div>
+                        </div>
+                        <h3>Test 3</h3>
+                        <p>General preparatory questions for the Swedish driving test - Practice Test 3.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 4 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=4'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i></div>
+                        </div>
+                        <h3>Test 4</h3>
+                        <p>General preparatory questions for the Swedish driving test - Practice Test 4.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 5 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=5'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-5"></i></div>
+                        </div>
+                        <h3>Test 5</h3>
+                        <p>General preparatory questions for the Swedish driving test - Practice Test 5.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 6 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=6'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-6"></i></div>
+                        </div>
+                        <h3>Test 6</h3>
+                        <p>General preparatory questions for the Swedish driving test - Practice Test 6.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 7 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=7'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-7"></i></div>
+                        </div>
+                        <h3>Test 7</h3>
+                        <p>Pedestrian areas - 9 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 8 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=8'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-8"></i></div>
+                        </div>
+                        <h3>Test 8</h3>
+                        <p>Cyclist areas - 8 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 9 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=9'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-9"></i></div>
+                        </div>
+                        <h3>Test 9</h3>
+                        <p>Correct lane choice and positioning at intersections - 10 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 10 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=10'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-0"></i></div>
+                        </div>
+                        <h3>Test 10</h3>
+                        <p>Motorway - 16 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 11 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=11'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-1"></i></div>
+                        </div>
+                        <h3>Test 11</h3>
+                        <p>Rural roads - 18 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 12 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=12'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-2"></i></div>
+                        </div>
+                        <h3>Test 12</h3>
+                        <p>Roadworks and railway crossings - 9 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 13 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=13'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-3"></i></div>
+                        </div>
+                        <h3>Test 13</h3>
+                        <p>Overtaking rules - 11 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 14 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=14'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-4"></i></div>
+                        </div>
+                        <h3>Test 14</h3>
+                        <p>Night driving and lighting regulations - 10 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 15 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=15'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-5"></i></div>
+                        </div>
+                        <h3>Test 15</h3>
+                        <p>Slippery road conditions and safe driving - 8 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 16 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=16'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-6"></i></div>
+                        </div>
+                        <h3>Test 16</h3>
+                        <p>Traffic accidents and first aid - 11 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 17 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=17'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-7"></i></div>
+                        </div>
+                        <h3>Test 17</h3>
+                        <p>Emergency stops and wildlife accidents - 6 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 18 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=18'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-8"></i></div>
+                        </div>
+                        <h3>Test 18</h3>
+                        <p>Trailers and towing regulations - 15 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 19 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=19'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-1"></i><i class="fa-solid fa-9"></i></div>
+                        </div>
+                        <h3>Test 19</h3>
+                        <p>Braking distance and reaction time - 13 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 20 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=20'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-0"></i></div>
+                        </div>
+                        <h3>Test 20</h3>
+                        <p>Driving characteristics and vehicle dynamics - 5 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 21 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=21'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-1"></i></div>
+                        </div>
+                        <h3>Test 21</h3>
+                        <p>Tyres and wheels - 11 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 22 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=22'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-2"></i></div>
+                        </div>
+                        <h3>Test 22</h3>
+                        <p>Brakes and steering systems - 11 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 23 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=23'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-3"></i></div>
+                        </div>
+                        <h3>Test 23</h3>
+                        <p>Vehicle safety and child protection systems - 8 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 24 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=24'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-4"></i></div>
+                        </div>
+                        <h3>Test 24</h3>
+                        <p>Vehicle assistance systems - 8 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 25 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=25'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-5"></i></div>
+                        </div>
+                        <h3>Test 25</h3>
+                        <p>Load and weights - 9 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 26 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=26'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-6"></i></div>
+                        </div>
+                        <h3>Test 26</h3>
+                        <p>Warning lights - 10 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 27 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=27'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-7"></i></div>
+                        </div>
+                        <h3>Test 27</h3>
+                        <p>Vehicle inspection and insurance - 12 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 28 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=28'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-8"></i></div>
+                        </div>
+                        <h3>Test 28</h3>
+                        <p>Learning methods - 7 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 29 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=29'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-2"></i><i class="fa-solid fa-9"></i></div>
+                        </div>
+                        <h3>Test 29</h3>
+                        <p>Fatigue and drugs - 6 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 30 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=30'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-0"></i></div>
+                        </div>
+                        <h3>Test 30</h3>
+                        <p>Alcohol - 10 questions.</p>
+                    </div>
+                    <div class="start-btn">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 31 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=31'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-1"></i></div>
+                        </div>
+                        <h3>Test 31</h3>
+                        <p>Peer pressure and stress - 6 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=31'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 32 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=32'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-2"></i></div>
+                        </div>
+                        <h3>Test 32</h3>
+                        <p>Ethics and personality - 3 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=32'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 33 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=33'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-3"></i></div>
+                        </div>
+                        <h3>Test 33</h3>
+                        <p>Penalties and sanctions - 7 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=33'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 34 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=34'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-4"></i></div>
+                        </div>
+                        <h3>Test 34</h3>
+                        <p>Young and older drivers - 7 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=34'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 35 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=35'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-5"></i></div>
+                        </div>
+                        <h3>Test 35</h3>
+                        <p>Vision ability - 6 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=35'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 36 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=36'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-6"></i></div>
+                        </div>
+                        <h3>Test 36</h3>
+                        <p>Vision and other senses - 8 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=36'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 37 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=37'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-7"></i></div>
+                        </div>
+                        <h3>Test 37</h3>
+                        <p>Different road users - 7 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=37'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 38 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=38'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-8"></i></div>
+                        </div>
+                        <h3>Test 38</h3>
+                        <p>Eco-driving - 6 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=38'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 39 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=39'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-3"></i><i class="fa-solid fa-9"></i></div>
+                        </div>
+                        <h3>Test 39</h3>
+                        <p>Fuels - 8 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=39'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 40 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=40'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-0"></i></div>
+                        </div>
+                        <h3>Test 40</h3>
+                        <p>Equipment - 10 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=40'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 41 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=41'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-1"></i></div>
+                        </div>
+                        <h3>Test 41</h3>
+                        <p>Warning signs - 8 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=41'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 42 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=42'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-2"></i></div>
+                        </div>
+                        <h3>Test 42</h3>
+                        <p>Yield signs - 6 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=42'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 43 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=43'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-3"></i></div>
+                        </div>
+                        <h3>Test 43</h3>
+                        <p>Prohibition signs - 9 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=43'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 44 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=44'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-4"></i></div>
+                        </div>
+                        <h3>Test 44</h3>
+                        <p>Mandatory signs - 7 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=44'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 45 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=45'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-5"></i></div>
+                        </div>
+                        <h3>Test 45</h3>
+                        <p>Information signs - 6 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=45'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 46 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=46'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-6"></i></div>
+                        </div>
+                        <h3>Test 46</h3>
+                        <p>Location signs - 9 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=46'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 47 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=47'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-7"></i></div>
+                        </div>
+                        <h3>Test 47</h3>
+                        <p>Supplementary signs - 7 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=47'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 48 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=48'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-8"></i></div>
+                        </div>
+                        <h3>Test 48</h3>
+                        <p>Police signs - 6 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=48'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 49 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=49'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-4"></i><i class="fa-solid fa-9"></i></div>
+                        </div>
+                        <h3>Test 49</h3>
+                        <p>Road markings - 8 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=49'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+                <!-- Test 50 -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=50'">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-5"></i><i class="fa-solid fa-0"></i></div>
+                        </div>
+                        <h3>Test 50</h3>
+                        <p>Speeds - 6 questions.</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=50'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+
+            </div> <!-- exam-grid ends here -->
+
+            <!-- ★★★ Theory Test - Centered separate row ★★★ -->
+            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=51&mode=random'" style="max-width: 220px; width: 100%;">
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        </div>
+                        <h3>Theory Test</h3>
+                        <p>60-question theory test</p>
+                    </div>
+                    <div class="start-btn" onclick="event.stopPropagation(); window.location.href='sinav.html?test=51&mode=random'">
+                        Start Test <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INFO SECTION -->
+            <section class="info-section">
+                <h2>About the Swedish Theory Test</h2>
+                <p>
+                    To obtain a driving license in Sweden, you must pass the Swedish Transport Agency's theory test, which consists of a total of 65 questions and requires at least 52 correct answers to pass.
+                </p>
+                <p>
+                    Our website, with a question bank of real exam quality, allows you to prepare for the Swedish driving test in a practical and efficient way.
+                </p>
+                
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong><i class="fa-solid fa-globe" style="color:var(--accent-blue)"></i> Swedish standard:</strong> Adapted to the official exam format and terminology.
+                    </div>
+                    <div class="info-item">
+                        <strong><i class="fa-solid fa-check-double" style="color:var(--accent-blue)"></i> Instant results:</strong> Once you complete the test, you will immediately see your mistakes and correct explanations.
+                    </div>
+                </div>
+            </section>
+
+            <!-- IN-DEPTH CONTENT -->
+            <section class="info-section" style="margin-top: 40px; background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.1);">
+                <h2 style="color: #fff; font-size: 22px;">What should you consider when preparing for the driving test?</h2>
+                <p style="color: #cbd5e1; line-height: 1.8;">
+                    The theory test during the driving license process measures how well driver candidates understand traffic rules, engine knowledge, first aid, and traffic ethics. The interactive tests on our website are specially designed to reduce exam stress, refresh knowledge, and facilitate adaptation to the real exam format in a practical way.
+                </p>
+                
+                <h3 style="color: #fff; margin-top: 25px; font-size: 18px;">What is the secret to success in the theory test?</h3>
+                <p style="color: #cbd5e1; line-height: 1.8;">
+                    Instead of just memorizing questions, understanding the logic behind traffic signs and rules, especially in visual and video-based questions, leads to passing the theory test on the first try and lays the foundation for safe driving both during the driving test and in the future. With our dynamic question pool, you can test yourself at any time and quickly identify your weak areas.
+                </p>
+                
+                <h3 style="color: #fff; margin-top: 25px; font-size: 18px;">How does our exam system work?</h3>
+                <p style="color: #cbd5e1; line-height: 1.8;">
+                    All our tests are completely free and we avoid interruptions to keep the user experience at its best. No prerequisites are required to start the test; you can directly begin with your tests.
+                </p>
+                
+                <h3 style="color: #fff; margin-top: 25px; font-size: 18px;">How can you evaluate your test results?</h3>
+                <p style="color: #cbd5e1; line-height: 1.8;">
+                    After each test, you will see your correct and incorrect answers in detail, and you can review explanations for your mistakes to identify your weaknesses. This way, you clearly see which subjects you need to revise.
+                </p>
+                
+                <h3 style="color: #fff; margin-top: 25px; font-size: 18px;">Simulation closest to the real exam experience</h3>
+                <p style="color: #cbd5e1; line-height: 1.8;">
+                    Our exam simulation is designed according to the Swedish Transport Agency's official exam format. With 65 questions, 60 minutes, and a requirement of at least 52 correct answers, you can experience the real exam atmosphere. With the random question option, you face different questions each time and can prepare for all topics that may appear on the test.
+                </p>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Swedish Question Bank. All rights reserved.</p>
+        <p style="margin-top: 10px;">
+            <a href="gizlilik.html">Privacy Policy</a>
+            <span style="color: var(--text-muted); margin: 0 10px;">|</span>
+            <a href="hakkimizda.html">About Us</a>
+            <span style="color: var(--text-muted); margin: 0 10px;">|</span>
+            <a href="iletisim.html">Contact</a>
+            <span style="color: var(--text-muted); margin: 0 10px;">|</span>
+            <a href="sinav.html">Test</a>
+        </p>
+        <p style="margin-top: 8px; font-size: 12px; color: var(--text-muted);">Design and infrastructure adapted to Google AdSense standards.</p>
+    </footer>
+
+    <script>
+        // ★★★ LANGUAGE-BASED LOCALSTORAGE KEY ★★★
+        const STORAGE_KEY = 'testStatus_en';
+
+        function getTestStatus(testId) {
+            try {
+                const data = localStorage.getItem(STORAGE_KEY);
+                if (!data) return null;
+                const status = JSON.parse(data);
+                return status[testId] || null;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function addStatusDots() {
+            const cards = document.querySelectorAll('.exam-card');
+            cards.forEach(card => {
+                const onclick = card.getAttribute('onclick');
+                if (!onclick) return;
+                const match = onclick.match(/test=(\d+)/);
+                if (!match) return;
+                const testId = parseInt(match[1]);
+                const statusData = getTestStatus(testId);
+                if (!statusData) return;
+
+                const dot = document.createElement('span');
+                dot.className = 'test-dot';
+                if (statusData.status === 'basarili') {
+                    dot.classList.add('green');
+                } else if (statusData.status === 'yarim_kaldi') {
+                    dot.classList.add('yellow');
+                } else if (statusData.status === 'basarisiz') {
+                    dot.classList.add('red');
+                } else {
+                    return;
+                }
+
+                // Add dot directly inside the card (top-left corner)
+                card.appendChild(dot);
+            });
+        }
+
+        // ★★★ RESET BUTTON ★★★
+        function resetAllProgress() {
+            if (confirm('All your test progress will be deleted. Are you sure?')) {
+                localStorage.removeItem(STORAGE_KEY);
+                document.querySelectorAll('.test-dot').forEach(dot => dot.remove());
+                alert('All progress has been reset.');
+            }
+        }
+
+        // Run when page loads
+        document.addEventListener('DOMContentLoaded', addStatusDots);
+    </script>
+
+</body>
+</html>
