@@ -15,7 +15,6 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://teoripro.netlify.app/tr/">
     
-    <!-- ★★★ HREFLANG - Google'a sayfanın çok dilli olduğunu söylüyoruz ★★★ -->
     <link rel="alternate" hreflang="sv" href="https://teoripro.netlify.app/sv/index.html" />
     <link rel="alternate" hreflang="tr" href="https://teoripro.netlify.app/tr/index.html" />
     <link rel="alternate" hreflang="ar" href="https://teoripro.netlify.app/ar/index.html" />
@@ -231,7 +230,6 @@
             margin-bottom: 10px;
         }
 
-        /* ★★★ TEST DURUM NOKTALARI - SOL ÜST KÖŞE ★★★ */
         .test-dot {
             position: absolute;
             top: 10px;
@@ -279,7 +277,6 @@
             pointer-events: none;
         }
 
-        /* ★★★ SIFIRLAMA BUTONU ★★★ */
         .reset-btn {
             position: absolute;
             top: 20px;
@@ -441,6 +438,234 @@
             color: #cbd5e1;
         }
 
+        .special-exams-row {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .special-exams-row .exam-card {
+            max-width: 220px;
+            width: 100%;
+        }
+
+        .premium-card {
+            background: linear-gradient(135deg, #1a1408 0%, #2a1e08 100%);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .premium-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, transparent 60%);
+            pointer-events: none;
+            animation: premiumGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes premiumGlow {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        .premium-card:hover {
+            box-shadow: 0 20px 40px -12px rgba(245, 158, 11, 0.5);
+            border-color: var(--accent-gold);
+        }
+
+        .premium-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: #000;
+            font-size: 10px;
+            font-weight: 800;
+            padding: 4px 10px;
+            border-radius: 99px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            z-index: 6;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+        }
+
+        .premium-lock {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 80px;
+            color: rgba(245, 158, 11, 0.08);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .premium-card .exam-icon-wrapper {
+            position: relative;
+            z-index: 2;
+        }
+
+        .premium-card h3,
+        .premium-card p,
+        .premium-card .start-btn {
+            position: relative;
+            z-index: 2;
+        }
+
+        .premium-card .exam-icon {
+            color: var(--accent-gold);
+            text-shadow: 0 0 20px rgba(245, 158, 11, 0.6);
+        }
+
+        .premium-card:hover .exam-icon {
+            transform: scale(1.15) rotate(0deg);
+            color: #fbbf24;
+            text-shadow: 0 0 30px rgba(245, 158, 11, 0.9);
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(6px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            padding: 20px;
+        }
+        .modal-overlay.active {
+            display: flex;
+        }
+        .modal-box {
+            background: linear-gradient(135deg, #111827 0%, #1a1408 100%);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            border-radius: 20px;
+            padding: 32px 28px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 25px 60px -15px rgba(245, 158, 11, 0.3);
+            animation: modalPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+        }
+        @keyframes modalPop {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .modal-close {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+        .modal-close:hover {
+            background: rgba(239, 68, 68, 0.15);
+            color: #ef4444;
+            border-color: rgba(239, 68, 68, 0.3);
+        }
+        .modal-icon {
+            text-align: center;
+            font-size: 44px;
+            color: var(--accent-gold);
+            margin-bottom: 12px;
+            text-shadow: 0 0 25px rgba(245, 158, 11, 0.6);
+        }
+        .modal-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+        .modal-desc {
+            font-size: 13px;
+            color: var(--text-muted);
+            text-align: center;
+            margin-bottom: 22px;
+            line-height: 1.5;
+        }
+        .modal-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1.5px solid var(--border-color);
+            border-radius: 12px;
+            padding: 14px 16px;
+            color: #fff;
+            font-size: 15px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            margin-bottom: 14px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        .modal-input:focus {
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
+        }
+        .modal-input::placeholder {
+            color: var(--text-muted);
+            letter-spacing: 0;
+        }
+        .modal-error {
+            color: #ef4444;
+            font-size: 13px;
+            text-align: center;
+            margin-bottom: 12px;
+            min-height: 18px;
+            font-weight: 600;
+        }
+        .modal-btn {
+            width: 100%;
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #d97706 100%);
+            color: #000;
+            border: none;
+            padding: 14px 20px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .modal-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 25px -8px rgba(245, 158, 11, 0.5);
+        }
+        .modal-btn:active {
+            transform: scale(0.97);
+        }
+        .modal-shake {
+            animation: shake 0.4s;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            20%, 60% { transform: translateX(-8px); }
+            40%, 80% { transform: translateX(8px); }
+        }
+
         footer {
             margin-top: auto;
             border-top: 1px solid var(--border-color);
@@ -471,9 +696,6 @@
         <p class="subtitle">İsveç trafik müfredatına birebir uygun, güncel ve tamamen Türkçe teori sınav simülasyonu.</p>
     </header>
 
-    <!-- ============================================= -->
-    <!--  REKLAM KODU BAŞLIĞIN HEMEN ALTINDA          -->
-    <!-- ============================================= -->
     <div style="display: flex; justify-content: center; margin-top: 10px; margin-bottom: 30px; padding: 0 20px; max-width: 1200px; margin-left: auto; margin-right: auto;">
         <script>
             atOptions = {
@@ -1192,11 +1414,12 @@
                     </div>
                 </div>
 
-            </div> <!-- exam-grid burada kapanıyor -->
+            </div>
 
-            <!-- ★★★ Teori Sınavı - Ayrı satırda ortalanmış ★★★ -->
-            <div style="display: flex; justify-content: center; margin-top: 20px;">
-                <div class="exam-card" onclick="window.location.href='sinav.html?test=51&mode=random'" style="max-width: 220px; width: 100%;">
+            <div class="special-exams-row">
+
+                <!-- Teori Sınavı -->
+                <div class="exam-card" onclick="window.location.href='sinav.html?test=51&mode=random'">
                     <div>
                         <div class="exam-icon-wrapper">
                             <div class="exam-icon"><i class="fa-solid fa-graduation-cap"></i></div>
@@ -1208,11 +1431,29 @@
                         Sınava Başla <i class="fa-solid fa-play"></i>
                     </div>
                 </div>
+
+                <!-- Premium Kartı -->
+                <div class="exam-card premium-card" id="premiumCard" onclick="openPremiumModal()">
+                    <span class="premium-badge">
+                        <i class="fa-solid fa-crown"></i> Premium
+                    </span>
+                    <i class="fa-solid fa-lock premium-lock"></i>
+                    <div>
+                        <div class="exam-icon-wrapper">
+                            <div class="exam-icon"><i class="fa-solid fa-crown"></i></div>
+                        </div>
+                        <h3>Premium Testler</h3>
+                        <p>Premium erişim</p>
+                    </div>
+                    <div class="start-btn">
+                        <i class="fa-solid fa-lock"></i> Erişim İçin Tıkla
+                    </div>
+                </div>
+
             </div>
 
             </div>
             
-            <!-- INFO SECTION -->
             <section class="info-section">
                 <h2>İsveç Teori Sınavı (Teoriprov) Hakkında</h2>
                 <p>
@@ -1232,7 +1473,6 @@
                 </div>
             </section>
 
-            <!-- ZENGİN İÇERİK -->
             <section class="info-section" style="margin-top: 40px; background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.1);">
                 <h2 style="color: #fff; font-size: 22px;">Ehliyet Sınavına Hazırlanırken Nelere Dikkat Edilmeli?</h2>
                 <p style="color: #cbd5e1; line-height: 1.8;">
@@ -1264,6 +1504,20 @@
 
     </main>
 
+    <div class="modal-overlay" id="premiumModal">
+        <div class="modal-box" id="premiumModalBox">
+            <button class="modal-close" onclick="closePremiumModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-icon"><i class="fa-solid fa-crown"></i></div>
+            <h2 class="modal-title">Premium Erişim</h2>
+            <p class="modal-desc">Premium testlere erişmek için şifrenizi giriniz.</p>
+            <input type="password" class="modal-input" id="premiumPassword" placeholder="Şifrenizi girin..." autocomplete="off" onkeydown="if(event.key==='Enter') submitPremiumPassword()">
+            <div class="modal-error" id="premiumError"></div>
+            <button class="modal-btn" onclick="submitPremiumPassword()">
+                <i class="fa-solid fa-unlock"></i> Giriş Yap
+            </button>
+        </div>
+    </div>
+
     <footer>
         <p>&copy; 2026 İsveç Sınav Bankası. Tüm Hakları Saklıdır.</p>
         <p style="margin-top: 10px;">
@@ -1279,8 +1533,15 @@
     </footer>
 
     <script>
-        // ★★★ DİL BAZLI LOCALSTORAGE ANAHTARI ★★★
         const STORAGE_KEY = 'testStatus_tr';
+        const PREMIUM_STORAGE_KEY = 'premiumStatus_tr';
+        const PREMIUM_SIFRELER = [
+            "Hazalim21",
+            "Ege07",
+            "Umitadana01",
+            "Yuksel45",
+            "Filiz2135"
+        ];
 
         function getTestStatus(testId) {
             try {
@@ -1316,22 +1577,79 @@
                     return;
                 }
 
-                // Noktayı doğrudan kartın içine ekle (sol üst köşe)
                 card.appendChild(dot);
             });
         }
 
-        // ★★★ SIFIRLAMA BUTONU ★★★
         function resetAllProgress() {
             if (confirm('Tüm test ilerlemeniz silinecek. Emin misiniz?')) {
                 localStorage.removeItem(STORAGE_KEY);
-                // Sayfadaki tüm noktaları kaldır
+                localStorage.removeItem(PREMIUM_STORAGE_KEY);
                 document.querySelectorAll('.test-dot').forEach(dot => dot.remove());
+                document.querySelectorAll('.premium-mini-circle').forEach(c => c.remove());
                 alert('Tüm ilerleme sıfırlandı.');
             }
         }
 
-        // Sayfa yüklendiğinde çalıştır
+        function openPremiumModal() {
+            if (sessionStorage.getItem('premiumAccess') === 'true') {
+                window.location.href = 'premium.html';
+                return;
+            }
+            const modal = document.getElementById('premiumModal');
+            modal.classList.add('active');
+            document.getElementById('premiumError').textContent = '';
+            setTimeout(() => {
+                document.getElementById('premiumPassword').focus();
+            }, 100);
+        }
+
+        function closePremiumModal() {
+            document.getElementById('premiumModal').classList.remove('active');
+            document.getElementById('premiumPassword').value = '';
+            document.getElementById('premiumError').textContent = '';
+        }
+
+        function submitPremiumPassword() {
+            const input = document.getElementById('premiumPassword');
+            const errorEl = document.getElementById('premiumError');
+            const box = document.getElementById('premiumModalBox');
+            const sifre = input.value;
+
+            if (!sifre) {
+                errorEl.textContent = 'Lütfen şifrenizi girin.';
+                box.classList.remove('modal-shake');
+                void box.offsetWidth;
+                box.classList.add('modal-shake');
+                return;
+            }
+
+            if (PREMIUM_SIFRELER.includes(sifre)) {
+                sessionStorage.setItem('premiumAccess', 'true');
+                errorEl.textContent = '';
+                window.location.href = 'premium.html';
+            } else {
+                errorEl.textContent = 'Hatalı şifre. Tekrar deneyin.';
+                input.value = '';
+                input.focus();
+                box.classList.remove('modal-shake');
+                void box.offsetWidth;
+                box.classList.add('modal-shake');
+            }
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closePremiumModal();
+            }
+        });
+
+        document.getElementById('premiumModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePremiumModal();
+            }
+        });
+
         document.addEventListener('DOMContentLoaded', addStatusDots);
     </script>
 
