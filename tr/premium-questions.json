@@ -2372,8 +2372,8 @@
             "Durum C'de",
             "Durum D'de"
         ],
-        "dogru_index": 2,
-        "aciklama": "Karanlıkta araç sürerken ve karşıdan gelen trafik yokken Durum C'de uzun farları kullanmaya izin verilir. Yayalarla karşılaşırken uzun farlar kullanılabilir ancak araçlarla karşılaşırken kullanılamaz. Yol boşken uzun farlar daha iyi görüş sağlar. Karşıdan gelen trafik gibi diğer durumlarda, diğer sürücülerin gözünü kamaştırmamak için kısa farlara geçmelisiniz."
+        "dogru_index": 1,
+        "aciklama": "Karanlıkta araç sürerken ve karşıdan gelen trafik yokken Durum B'de uzun farları kullanmaya izin verilir. Yayalarla karşılaşırken uzun farlar kullanılabilir ancak araçlarla karşılaşırken kullanılamaz. Yol boşken uzun farlar daha iyi görüş sağlar. Karşıdan gelen trafik gibi diğer durumlarda, diğer sürücülerin gözünü kamaştırmamak için kısa farlara geçmelisiniz."
     },
     {
         "id": 188,
