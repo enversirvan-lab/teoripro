@@ -616,7 +616,7 @@
             <i class="fa-solid fa-crown"></i> Premium
         </a>
         <h1>Premium Testler</h1>
-        <p class="subtitle">210 özel soru ile İsveç ehliyet sınavına bir adım önde hazırlanın.</p>
+        <p class="subtitle">280 özel soru ile İsveç ehliyet sınavına bir adım önde hazırlanın.</p>
     </header>
 
     <main>
@@ -674,6 +674,22 @@
                         <div class="card-icon"><i class="fa-solid fa-crown"></i></div>
                         <h3>Premium Test 3</h3>
                         <div class="card-line1">141-210 arası sorular</div>
+                        <div class="card-line2">İsveç ehliyet sınavı için ileri seviye hazırlık.</div>
+                    </div>
+                    <div class="card-btn">
+                        <i class="fa-solid fa-play"></i> Testi Başlat
+                    </div>
+                </div>
+
+                <!-- Premium Test 4 -->
+                <div class="test-card" id="premiumTest4Card" onclick="handleTestCardClick(4)">
+                    <span class="lock-badge" id="lockBadge4">
+                        <i class="fa-solid fa-lock"></i> Kilitli
+                    </span>
+                    <div>
+                        <div class="card-icon"><i class="fa-solid fa-crown"></i></div>
+                        <h3>Premium Test 4</h3>
+                        <div class="card-line1">211-280 arası sorular</div>
                         <div class="card-line2">İsveç ehliyet sınavı için ileri seviye hazırlık.</div>
                     </div>
                     <div class="card-btn">
@@ -785,7 +801,8 @@
         const PREMIUM_STORAGE_KEYS = {
             1: 'premiumStatus_tr_test1',
             2: 'premiumStatus_tr_test2',
-            3: 'premiumStatus_tr_test3'
+            3: 'premiumStatus_tr_test3',
+            4: 'premiumStatus_tr_test4'
         };
 
         let allQuestions = [];
@@ -795,7 +812,7 @@
         let wrongAnswersCount = 0;
         let isCurrentQuestionAnswered = false;
         let isExamFinished = false;
-        let currentTestNumber = 1; // 1, 2 veya 3
+        let currentTestNumber = 1; // 1, 2, 3 veya 4
 
         // ★★★ SAYFAYI EN ÜSTE KAYDIR ★★★
         function scrollToTop() {
@@ -857,7 +874,7 @@
         function updateLockBadges() {
             const hasAccess = sessionStorage.getItem('premiumAccess') === 'true';
 
-            [1, 2, 3].forEach(num => {
+            [1, 2, 3, 4].forEach(num => {
                 const badge = document.getElementById('lockBadge' + num);
                 const card = document.getElementById('premiumTest' + num + 'Card');
                 if (!badge || !card) return;
@@ -915,8 +932,9 @@
                 localStorage.removeItem(PREMIUM_STORAGE_KEYS[1]);
                 localStorage.removeItem(PREMIUM_STORAGE_KEYS[2]);
                 localStorage.removeItem(PREMIUM_STORAGE_KEYS[3]);
+                localStorage.removeItem(PREMIUM_STORAGE_KEYS[4]);
                 
-                [1, 2, 3].forEach(num => {
+                [1, 2, 3, 4].forEach(num => {
                     const card = document.getElementById('premiumTest' + num + 'Card');
                     if (card) {
                         card.querySelectorAll('.test-dot, .premium-mini-circle').forEach(el => el.remove());
@@ -995,9 +1013,12 @@
             } else if (testNum === 2) {
                 startId = 71;
                 endId = 140;
-            } else {
+            } else if (testNum === 3) {
                 startId = 141;
                 endId = 210;
+            } else {
+                startId = 211;
+                endId = 280;
             }
 
             const testQuestions = allQuestions.filter(q => q.id >= startId && q.id <= endId);
