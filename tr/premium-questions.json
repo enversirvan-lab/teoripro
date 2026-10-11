@@ -3554,5 +3554,887 @@
         ],
         "dogru_index": 2,
         "aciklama": "Resim C'de kemer, göğüs üzerinden köprücük kemiğinin üzerine ve alt kısım ise kalça kemiğinin üzerine gelecek şekilde konumlandırılmıştır. Kemer bükülü olmamalıdır. Montun açık olması ve kemerin gerektiği gibi sıkı durması en iyi korumayı sağlar, böylece bir kaza anında en iyi koruma elde edilir."
+    },
+    {
+        "id": 281,
+        "soru": "Yol işareti ne anlama gelir?",
+        "gorsel_yolu": "../images/p281.webp",
+        "secenekler": [
+            "Sadece binek araçları sollama yasağı",
+            "Tüm motorlu araçları sollama yasağı",
+            "İkiden fazla tekerleği olan motorlu araçları sollama yasağı"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Yol işareti \"İkiden fazla tekerleği olan motorlu araçları sollama yasağı\" anlamına gelir. Bu, iki tekerlekli motosikletleri veya mopedleri sollamanıza izin verildiği anlamına gelir."
+    },
+    {
+        "id": 282,
+        "soru": "Karanlıktasınız. Hangi durumda uzun farları kullanmak yasaktır?",
+        "gorsel_yolu": "../images/p282.webp",
+        "secenekler": [
+            "Bir bisikletçi ile karşılaşıldığında",
+            "Park etmiş bir aracı geçerken",
+            "Yaya ile karşılaşıldığında"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Uzun farlar yayalara ve duran araçlara karşı kullanılabilir ancak hareketli araçlara karşı kullanılamaz. Bir bisiklet bir araçtır, bu nedenle bisikletliler için de kısa farlara geçmeniz gerekir."
+    },
+    {
+        "id": 283,
+        "soru": "Bu durumda sağ taraftan sollama yapmanıza izin verilir mi?",
+        "gorsel_yolu": "../images/p283.webp",
+        "secenekler": [
+            "Evet",
+            "Hayır"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Öndeki araç sola dönüyorsa ve sağ tarafta yeterli alan varsa, dikkatli bir şekilde sağ taraftan sollama yapabilirsiniz."
+    },
+    {
+        "id": 284,
+        "soru": "Bu durumlardan hangisinde sollamayı kolaylaştırmak için emniyet şeridini kullanmak uygundur?",
+        "gorsel_yolu": "../images/p284.webp",
+        "secenekler": [
+            "Durum A'da",
+            "Durum B'de",
+            "Durum C'de",
+            "Durum D'de"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Resim A: Emniyet şeridi geniş ve yolda yaban hayatı çiti bulunmaktadır. Bu nedenle sollamayı kolaylaştırmak için emniyet şeridini kullanmak en uygun durumdur. Resim B ve C: Yolda yaban hayatı çiti yoktur, bu da yola yaban hayvanı çıkma riskini artırır. Resim D: Hava karanlık ve görüş kısıtlı olduğu için emniyet şeridini kullanmak risklidir."
+    },
+    {
+        "id": 285,
+        "soru": "Yol işareti kombinasyonu ne anlama gelir?",
+        "gorsel_yolu": "../images/p285.webp",
+        "secenekler": [
+            "Bu yol işaretlerinden sonra duraklamak yasaktır",
+            "Bu yol işaretlerinden önce park etmek yasaktır",
+            "Bu yol işaretlerinden önce duraklamak yasaktır",
+            "Bu yol işaretlerinden sonra park etmek yasaktır"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Yol işareti kombinasyonu, belirtilen yol işaretlerinden önceki yol bölümünde park etmenin yasak olduğu anlamına gelir. Yol işaretlerinden sonra herhangi bir kısıtlama olmadan park edilebilir."
+    },
+    {
+        "id": 286,
+        "soru": "Aşağıdaki gruplardan hangisindeki tüm araçların otoyolda sürüş yapmasına izin verilir?",
+        "gorsel_yolu": "../images/p286.webp",
+        "secenekler": [
+            "Hafif motosiklet, ağır kamyon, römorklu binek araç",
+            "Otobüs, ağır motosiklet, traktör",
+            "Hafif kamyon, römorklu binek araç, traktör",
+            "Hafif motosiklet, moped sınıf 1, römorklu binek araç"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Otoyolda şu araçların sürülmesine izin verilmez: Mopedler (sınıf I ve II), Traktörler (A ve B), Motorlu kızaklar, Arazi motorlu taşıtları (kar motosikletleri ve arazi tekerlekli araçları), Bisikletler, Atlı araçlar ve at üstündekiler, Yayalar. Ayrıca en az 40 km/s hızla gidemeyen veya gitmesine izin verilmeyen hiçbir aracın otoyolda sürülmesine izin verilmez."
+    },
+    {
+        "id": 287,
+        "soru": "Suda kızaklama riskini en iyi nasıl önlersiniz?",
+        "gorsel_yolu": "../images/p287.webp",
+        "secenekler": [
+            "Yeterince düşük bir hızla sürerek",
+            "Dört çeker bir araç sürerek",
+            "Geniş lastiklerle sürerek",
+            "Diş derinliği 5 mm'den fazla olan lastiklerle sürerek"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Suda kızaklama riskini azaltmak için hızı düşürmeli ve suyu daha kolay yardıkları için daha dar lastikler kullanmalısınız."
+    },
+    {
+        "id": 288,
+        "soru": "Az önce bu yol işaretini geçtiniz. Başka bir yol işareti yoksa geleceğiniz kavşakta ne geçerlidir?",
+        "gorsel_yolu": "../images/p288.webp",
+        "secenekler": [
+            "Sağdan gelen trafiğe öncelik vermeliyim",
+            "Kesişen tüm trafiğe öncelik vermeliyim",
+            "Soldan gelen trafiğe öncelik vermeliyim",
+            "Kesişen tüm trafik önce benim geçmeme izin vermelidir"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Ana yol sona erdiğinde, başka bir kural belirtilmemişse normalde sağdan gelenin önceliği kuralı geçerlidir."
+    },
+    {
+        "id": 289,
+        "soru": "Sireni ve mavi ışıkları açık olan bir ambulans, kırmızı ışık yanan bir trafik lambasından geçebilir mi?",
+        "gorsel_yolu": "../images/p289.webp",
+        "secenekler": [
+            "Evet",
+            "Hayır"
+        ],
+        "dogru_index": 0,
+        "aciklama": "İmdat araçları, mavi ışık ve siren kullandıklarında, herhangi bir tehlikeye yol açmamak kaydıyla bazı trafik kurallarından istisna tutulabilirler."
+    },
+    {
+        "id": 290,
+        "soru": "Sürücünün alkollü olduğunu bildiğiniz ve müdahale etmediğiniz bir araçta yolcu olarak bulunursanız suçlanabilir misiniz?",
+        "gorsel_yolu": "../images/p290.webp",
+        "secenekler": [
+            "Hayır",
+            "Evet"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Evet, sürücünün alkollü olduğunu biliyorsanız ve müdahale etmiyorsanız bir yolcu olarak suçlanabilirsiniz. Sarhoş birinin araç sürmesine izin vermek yasal değildir ve yolcular suçun işlenmesine ortak olmakla suçlanabilirler. Her zaman sorumlu bir şekilde hareket etmek ve alkollü bir kişinin araba kullanmasını engellemek önemlidir."
+    },
+    {
+        "id": 291,
+        "soru": "Binek aracınız 180 cm genişliğindedir. Genel yolda seyrederken yük, aracın bir yanından en fazla ne kadar dışarı taşabilir?",
+        "gorsel_yolu": "../images/p291.webp",
+        "secenekler": [
+            "10 cm",
+            "20 cm",
+            "30 cm",
+            "40 cm"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Aracın ve yükün toplam genişliği en fazla 260 cm olabilir. Yük, her bir taraftan en fazla 20 cm taşabilir. Araç 180 cm genişliğindedir. Yük sol taraftan en fazla 20 cm, sağ taraftan en fazla 20 cm taşabilir. 180 cm + 20 cm + 20 cm = 220 cm. Dolayısıyla toplam genişlik 220 cm olur ve bu değer izin verilen azami 260 cm genişlikten az olduğu için uygundur."
+    },
+    {
+        "id": 292,
+        "soru": "Aracınızın tavanında bir yatak taşıyacaksınız. Araba 160 cm genişliğindedir ve genel yolda sürülecektir. Yatak en fazla ne kadar geniş olabilir?",
+        "gorsel_yolu": "../images/p292.webp",
+        "secenekler": [
+            "160 cm",
+            "180 cm",
+            "200 cm",
+            "220 cm",
+            "240 cm",
+            "260 cm"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Aracınız 160 cm genişliğinde ise, tavanında taşınırken yatak en fazla 200 cm genişliğinde olabilir. Yük, aracın her iki yanından en fazla 20 cm dışarı taşabilir."
+    },
+    {
+        "id": 293,
+        "soru": "\"Hafif kamyon\" kavramı ile ağırlığı en fazla 3,5 ton olan kamyon kastedilmektedir. Buradaki ağırlık hangisi olarak kabul edilir?",
+        "gorsel_yolu": "../images/p293.webp",
+        "secenekler": [
+            "Boş ağırlık",
+            "Azami yük",
+            "Toplam ağırlık",
+            "Brüt ağırlık"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Sınır 3.500 kg toplam ağırlıktır. Hafif kamyon: Toplam ağırlığı en fazla 3.500 kg. Ağır kamyon: Toplam ağırlığı 3.500 kg'ın üzerinde."
+    },
+    {
+        "id": 294,
+        "soru": "Sağa dönecekseniz ne geçerlidir?",
+        "gorsel_yolu": "../images/p294.webp",
+        "secenekler": [
+            "Lamba kırmızı yandığı için beklemeliyim",
+            "DUR (STOP) tabelası bulunduğu için durmalıyım",
+            "Yeşil ok yandığı için şimdi dönebilirim"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Yeşil ok yanıyorsa, trafik ışığının geri kalanı kırmızı gösterse bile sağa dönmenize izin veriliyor demektir. Bu, trafik akışını kolaylaştırmak için o yöne öncelik veren özel bir trafik kuralıdır. Yani yeşil ok yandığında sağa dönmek serbesttir. DUR (STOP) tabelası yalnızca trafik ışıkları çalışmadığında geçerlidir."
+    },
+    {
+        "id": 295,
+        "soru": "Bir sığına çarpıp yaralamanız durumunda polise haber vermekle yükümlü müsünüz?",
+        "gorsel_yolu": "../images/p295.webp",
+        "secenekler": [
+            "Hayır, sığın olay yerinden koşarak uzaklaşabiliyorsa gerek yoktur",
+            "Evet, her zaman polise haber vermeliyim",
+            "Evet, ama sadece sığın çarpışma sırasında ölürse"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Bir sığına çarpılması durumunda, hayvan kaçıp gitmiş görünse dahi polise bilgi verilmesi zorunludur. Yaralı hayvanın takibi ve acısının dindirilmesi için yetkililerin bilgilendirilmesi gerekir."
+    },
+    {
+        "id": 296,
+        "soru": "Gündüz vakti siste sürüş yaparken hangi aydınlatmayı kullanabilirsiniz?",
+        "gorsel_yolu": "../images/p296.webp",
+        "secenekler": [
+            "Kısa farlar ile birlikte sis farları",
+            "Park lambaları ile birlikte sis farları",
+            "Sadece park lambaları"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Gündüz vakti siste, görünürlüğü artırmak ve görüşü iyileştirmek için kısa farlar ile birlikte sis farlarını kullanmalısınız. Sis farları, sisli koşullarda daha iyi görüş sağlamak üzere özel olarak tasarlanmıştır. Diğer sürücülerin gözünü alabileceği için uzun farları kullanmaktan kaçınmak önemlidir."
+    },
+    {
+        "id": 297,
+        "soru": "Trafikte ağır yaralanan sürücülerin çoğu bu gruplardan hangisinde yer almaktadır?",
+        "gorsel_yolu": "../images/p297.webp",
+        "secenekler": [
+            "18 – 24 yaş arası kadınlar",
+            "50 – 65 yaş arası kadınlar",
+            "18 – 24 yaş arası erkekler",
+            "40 – 55 yaş arası erkekler",
+            "75 – 84 yaş arası erkekler"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Trafikte ağır yaralanan sürücülerin çoğu 18 ile 24 yaş arasındaki erkeklerdir. Bu grup, risk alma ve deneyim eksikliği gibi faktörler nedeniyle kazalarda aşırı temsil edilmektedir. Bu yaş grubuna yönelik trafik güvenliği çalışmaları kazaların azaltılmasına katkı sağlayabilir."
+    },
+    {
+        "id": 298,
+        "soru": "Büyük bir otopark alanında sürüş yapıyorsunuz ve düz devam edeceksiniz. Sağdan gelen araç yavaş sürüyor. Ne yapmalısınız?",
+        "gorsel_yolu": "../images/p298.webp",
+        "secenekler": [
+            "Diğer araç sağdan geldiği için önce ben geçerim",
+            "Sağdan geldiği için diğer aracın önce geçmesine izin veririm",
+            "Düz devam edeceğim için önce ben geçerim"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Bir otopark alanında sürerken sağdan bir araç geliyorsa, sağdan gelene öncelik kuralı uyarınca her zaman diğer araca geçiş hakkı vermelisiniz."
+    },
+    {
+        "id": 299,
+        "soru": "Bir otobüs durağında duraklamak veya park etmek yasak mıdır, izin verilir mi?",
+        "gorsel_yolu": "../images/p299.webp",
+        "secenekler": [
+            "Evet, herhangi bir otobüsü engellemiyorsam ve yolcuların araca binmesi veya araçtan inmesi için duruyorsam",
+            "Evet, herhangi bir otobüsü engellemiyorsam ve yük indirip bindirmek için duruyorsam",
+            "Evet, araçta oturmaya devam edersem park edebilirim",
+            "Hayır, otobüs durağında asla durmama izin verilmez"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Genel olarak bir otobüs durağında duraklamak veya park etmek yasaktır; ancak otobüsü engellemediğiniz sürece yolcuların binmesi veya inmesi için kısa süreli duraklamak mümkündür. Otobüsün durup yolcu indirip bindirme olanağını nasıl etkilediğinize her zaman dikkat etmelisiniz. Otobüs durağını engellerseniz bu durum para cezasına yol açabilir."
+    },
+    {
+        "id": 300,
+        "soru": "Bu trafik işaretlerinden hangisi sağdan öncelik kuralının geçerli olduğu bir kavşağı belirtir?",
+        "gorsel_yolu": "../images/p300.webp",
+        "secenekler": [
+            "Trafik İşareti A",
+            "Trafik İşareti B",
+            "Trafik İşareti C",
+            "Trafik İşareti D"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Trafik İşareti C, sağdan gelenin önceliği kuralının geçerli olduğu bir kavşağı belirtir; bu da sağdan gelen trafiğe yol vermeniz gerektiği anlamına gelir."
+    },
+    {
+        "id": 301,
+        "soru": "Resimdeki kavşakta ne geçerlidir?",
+        "gorsel_yolu": "../images/p301.webp",
+        "secenekler": [
+            "Sağa dönmek zorundayım",
+            "Sağa ve sola dönmeme izin verilir",
+            "Sola dönmek zorundayım"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Bunu engelleyen herhangi bir kısıtlama olmadığı sürece kavşakta hem sağa hem de sola dönmenize izin verilir. Sağa giden yol tek yönlüdür. Yol işareti sağa dönüşü zorunlu kılmaz."
+    },
+    {
+        "id": 302,
+        "soru": "Düz devam etmeyi planlıyorsunuz. Bu durumda neye hazırlıklı olmak en önemlidir?",
+        "gorsel_yolu": "../images/p302.webp",
+        "secenekler": [
+            "Öndeki sürücünün fikrini değiştirip düz devam edebileceğine",
+            "Öndeki sürücünün birazdan durabileceğine",
+            "Sol şeritteki sürücünün kavşakta benim şeridime geçebileceğine"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Size yeşil ışık yandığında, dönüşteki bisikletliler ve yayalar için de aynı anda yeşil ışık yanar. Bu durumda en önemli şey, öndeki sürücünün yayalar veya bisikletliler nedeniyle aniden durabileceğine hazırlıklı olmaktır. Böyle bir durumda tepki verebilmek için yeterli takip mesafesini koruyun. Trafik akışına dikkat etmek ve olası duraklamalara hazırlıklı olmak trafik güvenliği açısından hayati önem taşır."
+    },
+    {
+        "id": 303,
+        "soru": "Bir engeli fark ettiğiniz andan aracın tamamen durduğu ana kadar katettiğiniz mesafenin tamamına ne ad verilir?",
+        "gorsel_yolu": "../images/p303.webp",
+        "secenekler": [
+            "Durma mesafesi",
+            "Fren mesafesi",
+            "Reaksiyon mesafesi"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Durma mesafesi, bir engeli fark ettiğiniz andan aracın tamamen durduğu ana kadar katettiği toplam mesafedir. Hem reaksiyon mesafesinden hem de fren mesafesinden oluşur. Hız ve yol koşulları gibi birçok faktör durma mesafesini etkiler."
+    },
+    {
+        "id": 304,
+        "soru": "Yeni binek otomobillerin çevre sınıfı neye dayanır?",
+        "gorsel_yolu": "../images/p304.webp",
+        "secenekler": [
+            "Aracın yaydığı hidrokarbon ve diğer bazı zararlı maddelerin miktarına",
+            "Aracın yaydığı karbondioksit miktarına",
+            "Aracın toplam ağırlığına",
+            "Aracın yakıt tüketimine"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Çevre sınıfı (Euro 1 - Euro 6/Euro 6e), öncelikle hidrokarbon (HC), azot oksitler (NOx), karbonmonoksit (CO) ve dizel araçlar için partiküller (PM) gibi zararlı egzoz gazlarının sınır değerlerine dayanır. Karbondioksit (CO2) ise çevre sınıfını belirlemek için değil, daha yeni araçlarda motorlu taşıtlar vergisini hesaplamak için kullanılır."
+    },
+    {
+        "id": 305,
+        "soru": "Düz ilerideki sokak hakkında trafik işareti hangi bilgiyi vermektedir?",
+        "gorsel_yolu": "../images/p305.webp",
+        "secenekler": [
+            "Araçla giriş yasağı",
+            "Çıkmaz sokak",
+            "Durmak ve park etmek yasaktır",
+            "Motorlu taşıt trafiğine kapalı yol"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Trafik işareti, ilerideki sokakta durmanın veya park etmenin yasak olduğunu belirtir. Bu durum, yolun trafik için açık tutulması gerekliliğinden veya diğer güvenlik hususlarından kaynaklanabilir."
+    },
+    {
+        "id": 306,
+        "soru": "Bu durumda ne yapmalısınız?",
+        "gorsel_yolu": "../images/p306.webp",
+        "secenekler": [
+            "Hızı düşürmek ve yan tarafta iyi bir mesafe bırakarak geçmek",
+            "Konumumu iyice sağda tutmak, hızı düşürmek ve durmaya hazır olmak",
+            "Geçebilmem için köpekleri tutması hususunda yayayı uyarmak amacıyla korna çalmak",
+            "Virajdan önce yayayı ve köpekleri hızlıca geçmek için hızı artırmak"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Hızınızı düşürün ve güvenli bir yan mesafe bırakarak köpekli kişinin yanından geçin. Görüş mesafesi iyi olduğu ve karşıdan gelen bir trafik bulunmadığı için, onlara ekstra alan sağlamak adına gerekirse şeridinizde daha dışa doğru kayabilirsiniz."
+    },
+    {
+        "id": 307,
+        "soru": "İlerideki sarı evin yanındaki kavşakta sola döneceksiniz. Kavşaktan hemen önce aracı nerede konumlandırmalısınız?",
+        "gorsel_yolu": "../images/p307.webp",
+        "secenekler": [
+            "Caddenin ortasında",
+            "Mümkün olduğunca sağda",
+            "Mümkün olduğunca solda"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Bir kavşakta sola dönerken, yol tek yönlü olduğu için aracı mümkün olduğunca sola konumlandırmalısınız. Bu, diğer trafiği engellemeden doğru ve güvenli bir dönüş yapmayı sağlar. Aracı doğru konumlandırmak, kazaları ve trafik sorunlarını önlemek için hayati önem taşır."
+    },
+    {
+        "id": 308,
+        "soru": "Düz çizgi halindeki sarı çizgi ne anlama gelir?",
+        "gorsel_yolu": "../images/p308.webp",
+        "secenekler": [
+            "Sebebi ne olursa olsun burada durabilirim ama park edemem",
+            "Burada durmak veya park etmek yasaktır",
+            "Burada sadece yolcu indirmek veya bindirmek için durabilirim",
+            "Burada sadece yük almak veya vermek için durabilirim"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Düz sarı çizgi, o yerde durmanın veya park etmenin yasak olduğu anlamına gelir. Bu kural, trafik güvenliğini sağlamak ve yolun tıkanmasını önlemek içindir."
+    },
+    {
+        "id": 309,
+        "soru": "Trafikte ölümlü kazaların en çok hangi haftanın gününde meydana geldiği görülmektedir?",
+        "gorsel_yolu": "../images/p309.webp",
+        "secenekler": [
+            "Pazartesi",
+            "Çarşamba",
+            "Cuma",
+            "Pazar"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Ulaştırma Kurumu'nun kaza istatistiklerine dayanan derlemelere göre, en çok ölümlü kaza cuma ve cumartesi günleri gerçekleşmektedir. Bunları pazar günleri takip ederken, pazartesi günleri en az sayıda ölümlü kazanın görüldüğü gündür."
+    },
+    {
+        "id": 310,
+        "soru": "Bisikletçiyle güvenli bir etkileşim kurmak için bu durumdaki sürücünün zamanında yavaşlaması hangi sürüş tarzıdır?",
+        "gorsel_yolu": "../images/p310.webp",
+        "secenekler": [
+            "Dürtüsel",
+            "Stresli",
+            "Agresif",
+            "Savunmacı"
+        ],
+        "dogru_index": 3,
+        "aciklama": "Bisikletçilerle güvenli bir etkileşim kurmak amacıyla erken yavaşlayan sürücüler savunmacı sürüş yapmaktadır. Savunmacı sürüş tarzı; dikkatli olmak, diğer yol kullanıcılarına yeterli alan bırakmak için hızı ayarlamak ve bu sayede kazaları önlemek anlamına gelir. Bu yaklaşım tehlikeli durum riskini azaltır ve trafik güvenliğini artırır."
+    },
+    {
+        "id": 311,
+        "soru": "Hangi trafik ortamında sürücünün yorulma riski en büyüktür?",
+        "gorsel_yolu": "../images/p311.webp",
+        "secenekler": [
+            "Çok fazla trafiğin olduğu şehir içi geniş bir yolda",
+            "Az trafiğe sahip geniş ve düz bir kırsal yolda",
+            "Az trafiğe sahip dar ve virajlı bir kırsal yolda",
+            "Az trafiğin olduğu şehir trafiğinde"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Az trafiğe sahip geniş ve düz bir kırsal yolda yorulma veya uykulu olma riski en büyüktür. Trafikte veya yol koşullarında büyük değişiklikler olmaksızın gerçekleşen bu monoton sürüş, sürücünün odak kaybetmesine ve yorulmasına yol açabilir. Bu tür sürüş koşullarında molalar vermek ve zinde kalmak büyük önem taşır."
+    },
+    {
+        "id": 312,
+        "soru": "Genel olarak sürüş yeteneğiniz stres nedeniyle etkilenir mi?",
+        "gorsel_yolu": "../images/p312.webp",
+        "secenekler": [
+            "Evet, yüksek stres sürüş yeteneğini olumsuz etkiler",
+            "Hayır",
+            "Evet, stres her zaman sürüş yeteneğini geliştirir"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Evet, yüksek stres konsantrasyonu ve reaksiyon yeteneğini etkileyerek sürüş becerisini bozar. Stres, trafikte daha hızlı ve üzerinde yeterince düşünülmemiş kararlar alınmasına yol açabilir. Bu nedenle sakin kalmak ve stres sürüşü etkiliyorsa mola vermek büyük önem taşır."
+    },
+    {
+        "id": 313,
+        "soru": "Aşağıdaki sürücü tiplerinden hangisi diğerlerine göre trafik kazalarına daha sık karışmaktadır?",
+        "gorsel_yolu": "../images/p313.webp",
+        "secenekler": [
+            "Öz farkındalığı zayıf ve agresif sürüş tarzına sahip genç erkekler",
+            "Öz farkındalığı iyi ve savunmacı sürüş tarzına sahip genç kadınlar",
+            "Öz farkındalığı iyi ve savunmacı sürüş tarzına sahip genç erkekler"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Öz farkındalığı zayıf olan birçok erkek sürüş yeteneğini över ve trafikteki riskleri azımsar. Agresif bir sürüş tarzı; genellikle hızlı araba sürmeyi, kısa takip mesafesi bırakmayı, riskli sollamalar yapmayı ve diğer sürücülere daha az saygı göstermeyi içerir. Bu durum kaza riskini artırır."
+    },
+    {
+        "id": 314,
+        "soru": "Trafikte yeni olan biri, deneyimli bir sürücüye göre daha büyük marjlarla mı araç sürmelidir?",
+        "gorsel_yolu": "../images/p314.webp",
+        "secenekler": [
+            "Evet, bir acemi genellikle trafikteki olayları değerlendirmek için zamana ihtiyaç duyar",
+            "Hayır, hangi marjlarla araç sürülmesi gerektiğini o anki zindelik durumu belirler",
+            "Hayır, trafikte yeni olan biri genellikle deneyimli bir sürücüye göre daha dinç ve uyanıktır"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Trafikte yeni olan bir sürücü, trafikteki olaylara tepki verebilmek için daha fazla zaman kazanmak amacıyla daha büyük marjlarla araç sürmelidir. Acemi bir sürücü genellikle daha az deneyime sahip olduğundan ve durumları değerlendirmekte zorlanabileceğinden; daha büyük takip mesafeleri ve daha düşük hızlar ekstra bir güvenlik marjı sağlar."
+    },
+    {
+        "id": 315,
+        "soru": "Bu durumdaki yaya karşısında nasıl hareket etmelisiniz?",
+        "gorsel_yolu": "../images/p315.webp",
+        "secenekler": [
+            "Dikkatini çekmek için korna çalarım",
+            "Onun önünden geçebileceğim için yola devam ederim",
+            "Hızımı düşürür ve onunla göz teması kurarım"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Hızınızı düşürün ve durmaya hazır olun. Yaya karşıdan karşıya geçmeyi düşünüyorsa yol vermelisiniz."
+    },
+    {
+        "id": 316,
+        "soru": "Kavşakta düz devam edeceksiniz. Hangi araçlara yol verme yükümlülüğünüz vardır?",
+        "gorsel_yolu": "../images/p316.webp",
+        "secenekler": [
+            "Karşıdan gelen ve sola dönecek olan araçlar",
+            "Yalnızca sağdan gelen araçlar",
+            "Hem soldan hem de sağdan gelen araçlar",
+            "Yalnızca soldan gelen araçlar"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Bir kavşakta düz devam ederken, trafik işaretine göre sağdan gelen araçlara yol verme yükümlülüğünüz vardır."
+    },
+    {
+        "id": 317,
+        "soru": "Bu durumda nasıl hareket etmelisiniz?",
+        "gorsel_yolu": "../images/p317.webp",
+        "secenekler": [
+            "Küçük bir yoldan geldiğim için durma yükümlülüğüm var",
+            "Hem soldan hem de sağdan gelen araçlara yol verme yükümlülüğüm var",
+            "Yalnızca sağdan gelen araçlara yol verme yükümlülüğüm var",
+            "Daha büyük asfalt bir yolu geçerken her zaman o yoldaki tüm araçlara karşı yol verme yükümlülüğüm vardır"
+        ],
+        "dogru_index": 3,
+        "aciklama": "Stabilize (çamur/taş) bir yoldan gelip daha büyük asfalt bir yolu kestiğinizde, o yoldan gelen tüm araçlara karşı yol verme yükümlülüğünüz bulunmaktadır. Bunun nedeni, büyük yolun genellikle önceliğe sahip olmasıdır. Her zaman ekstra dikkatli olun ve daha büyük yollardaki trafiğe geçiş hakkı tanıyın."
+    },
+    {
+        "id": 318,
+        "soru": "50 km/s hızla gidiyorsanız ve 10 metre uzunluğundaki bir otobüsün 10 metre arkasındaysanız, otobüsün önüne ani olarak bir çocuk fırlarsa durmayı başarabilir misiniz?",
+        "gorsel_yolu": "../images/p318.webp",
+        "secenekler": [
+            "Evet",
+            "Hayır"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Hayır, 50 km/s hızla giderken ve otobüsün 10 metre arkasındayken, otobüsün önüne bir çocuk fırlarsa duramazsınız. Bu hızdaki durma mesafeniz bu mesafeden daha uzun olduğundan zamanında tepki verip durabilmenizi zorlaştırır. 50 km/s hızda reaksiyon mesafesi yaklaşık 15 metre, fren mesafesi yaklaşık 12 metredir ve toplam durma mesafesi 27 metreyi bulur."
+    },
+    {
+        "id": 319,
+        "soru": "Bu sokak için aşağıdakilerden hangisi geçerlidir?",
+        "gorsel_yolu": "../images/p319.webp",
+        "secenekler": [
+            "Sokakta yaşayan birini almak için sokağa girmek yasaktır",
+            "Araçlar en fazla 30 km/s hızla gidebilir",
+            "Sokakta yaşayan birini almak veya bırakmak için araçla seyretmek mümkündür",
+            "Sokakta hiçbir taşıt trafiğine izin verilmez"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Yaya yolunda ikamet eden bir kişiyi almak veya o adrese bırakmak amacıyla araç sürmenize izin verilir. Ancak yaya yolunu kestirme veya transit geçiş yolu olarak kullanamazsınız."
+    },
+    {
+        "id": 320,
+        "soru": "Bir kaza mahalline geliyorsunuz. Normal nefes alan ve düzenli nabzı olan bilinci kapalı bir kişiye nasıl yardım etmeye çalışmalısınız?",
+        "gorsel_yolu": "../images/p320.webp",
+        "secenekler": [
+            "Kişiyi koma pozisyonuna yatırırım",
+            "Kişiyi sırtüstü yatırır ve üzerine battaniye örterim",
+            "Derhal kalp masajı ve suni teneffüse başlarım",
+            "Bilinç kaybı geçene kadar kişiyi sarsarım"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Bilinci kapalı bir kişi normal nefes alıyorsa ve düzenli bir nabza sahipse, solunum yollarını açık tutmak ve boğulmayı önlemek için kişiyi koma pozisyonuna yatırmalısınız. Bu, profesyonel yardım gelene kadar yapılacak en iyi eylemdir. Yan pozisyon, kişinin ek yaralanmalara neden olacak şekilde hareket etmesini önlemek açısından da önemlidir."
+    },
+    {
+        "id": 321,
+        "soru": "Aracınızı motoru kapalı halde çekmeye başlıyorsunuz. Çekme sırasında bunun etkisi ne olur?",
+        "gorsel_yolu": "../images/p321.webp",
+        "secenekler": [
+            "Fren yaptığımda tekerlekler normalden daha kolay kilitlenebilir",
+            "Fren yaparken normalden çok daha fazla kuvvet kullanmam gerekir",
+            "Frenler hiç çalışmaz"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Motoru kapalı bir arabayı çekiyorsanız, fren yapmak için normalden çok daha fazla kuvvet kullanmanız gerekir. Bunun nedeni, hidrolik frenlerin motorun vakumu olmadan çalışmamasıdır, bu da frenlemeyi çok daha sert ve daha az etkili hale getirir. Bu nedenle çekerken bunun bilincinde olmak ve ekstra dikkatli olmak önemlidir."
+    },
+    {
+        "id": 322,
+        "soru": "Ocak ayındayız. Bu durumda iyi bir diş derinliğine sahip kış lastiklerine sahip olmanızın en önemli nedeni nedir?",
+        "gorsel_yolu": "../images/p322.webp",
+        "secenekler": [
+            "Aksi takdirde aracın ABS frenleri çalışmaz",
+            "Aksi takdirde para cezası alabilirim",
+            "Yaz lastiklerine göre daha hızlı sürebilirim",
+            "Savrulma riski yaz lastiklerine göre daha azdır"
+        ],
+        "dogru_index": 3,
+        "aciklama": "Kaygan yol koşullarında yaz ve kış lastikleri arasındaki fark: Kış lastikleri daha yumuşak bir kauçuğa ve kar ile buzda daha iyi yol tutuşu sağlayan bir diş desenine sahiptir. Daha kısa fren mesafesi ve daha iyi direksiyon hakimiyeti sağlarlar. Yaz lastikleri soğukta sertleşir ve kaygan yollarda belirgin şekilde daha kötü yol tutuşu sağlar. Fren mesafesi uzar ve savrulma riski artar."
+    },
+    {
+        "id": 323,
+        "soru": "Hangi resim direksiyonu doğru tutuş pozisyonunu göstermektedir?",
+        "gorsel_yolu": "../images/p323.webp",
+        "secenekler": [
+            "Resim A",
+            "Resim B",
+            "Resim C"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Resim C doğruyu göstermektedir, çünkü kişi direksiyonu \"saat 9:15 pozisyonu\" adı verilen tutuşla tutmaktadır. Bu tutuş sayesinde hava yastığı açıldığında kollar yana doğru fırlatılır ve yaralanma riski azalır."
+    },
+    {
+        "id": 324,
+        "soru": "Trafikte meydana gelen ölümlü kazaların çoğu neden saat 16.00 ile 18.00 arasında gerçekleşir?",
+        "gorsel_yolu": "../images/p324.webp",
+        "secenekler": [
+            "Trafiğin en yoğun olduğu zaman olduğu için",
+            "Sürücülerin en yorgun olduğu zaman olduğu için",
+            "Yollarda çok fazla yabani hayvan olduğu için",
+            "Genellikle alaca karanlık olduğu için"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Ölümlü kazaların çoğu saat 16.00 ile 18.00 arasında meydana gelir, çünkü o saatlerde trafik yoğunluğu en üst seviyededir. Trafikte daha fazla aracın bulunması, kaza riskinin artması anlamına gelir."
+    },
+    {
+        "id": 325,
+        "soru": "Yayanın ne yapmasına hazırlıklı olmalısınız?",
+        "gorsel_yolu": "../images/p325.webp",
+        "secenekler": [
+            "Caddeden karşıya geçeceğine",
+            "Olduğu yerde durup önce benim geçmeme izin vereceğine"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Bir yaya gördüğünüzde, caddeden karşıya geçebileceğine hazırlıklı olmalısınız. Yayaların güvenliği bir önceliktir ve gerektiğinde durmaya hazır olmalısınız."
+    },
+    {
+        "id": 326,
+        "soru": "Bu kişilerden hangisi normalde trafikte tehlike oluşturma konusunda en büyük riski taşır?",
+        "gorsel_yolu": "../images/p326.webp",
+        "secenekler": [
+            "Heyecan ve macera arayan kişi",
+            "Diğer sürücülerin hata yapmasına tolerans gösteren kişi",
+            "Otokontrolü olan kişi",
+            "Kendine güveni iyi olan kişi"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Heyecan ve macera arayan bir kişi trafikte genellikle daha büyük riskler alır. Bu durum, heyecan hissi yaşamak uğruna hızlı sürmeyi, riskli sollamalar yapmayı veya trafik kurallarını ihlal etmeyi kapsayabilir."
+    },
+    {
+        "id": 327,
+        "soru": "Şu anda sürdüğünüz yoldaki azami hız sınırı 70 km/s'dir. Torup yönüne döneceksiniz. Aksi belirtilmedikçe dönüşün hemen ardından izin verilen azami hız kaç km/s'dir?",
+        "gorsel_yolu": "../images/p327.webp",
+        "secenekler": [
+            "50 km/s",
+            "60 km/s",
+            "70 km/s",
+            "80 km/s"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Meskun mahal dışında, yol işaretiyle başka bir hız belirtilmediği sürece normalde 70 km/s hız sınırı geçerlidir."
+    },
+    {
+        "id": 328,
+        "soru": "Bu sürüşünüzde sağa dönmeyi düşünüyorsunuz. Mümkün olduğunca düşük yakıt tüketimi sağlamak için nasıl sürmelisiniz?",
+        "gorsel_yolu": "../images/p328.webp",
+        "secenekler": [
+            "Debriyaja basıp boşta ilerlemek",
+            "Gazı azaltmak",
+            "Mümkün olduğunca uzun süre mevcut hızı koruyarak devam etmek",
+            "Gazı tamamen bırakmak ve motor freninden yararlanmak"
+        ],
+        "dogru_index": 3,
+        "aciklama": "Sağa dönüşte yakıt tüketimini azaltmak için gaz pedalını zamanında bırakmalı ve aracın motor freni yapmasına izin vermelisiniz. Gazı tamamen bıraktığınızda ve debriyaja basmadan vites takılı durumdayken, modern araçların çoğunda yakıt akışı kesilir. Bu durumda yakıt tüketimi neredeyse sıfırdır. Frenlemeyi planlayarak ve gazı erkenden bırakarak hem yakıttan hem de frenlerden tasarruf edersiniz."
+    },
+    {
+        "id": 329,
+        "soru": "Çevre dostu sürüş sayesinde yakıt tüketimi ve karbondioksit emisyonları ne kadar azaltılabilir?",
+        "gorsel_yolu": "../images/p329.webp",
+        "secenekler": [
+            "Yaklaşık %10-15",
+            "Yaklaşık %20-25",
+            "Yaklaşık %40",
+            "Yaklaşık %70"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Cevap: Yaklaşık %10-15. Bu durum, Ulaştırma Kurumu'nun tasarruflu sürüş hakkındaki bilgileriyle uyuşan bir ifadedir."
+    },
+    {
+        "id": 330,
+        "soru": "Hangi ifade doğrudur?",
+        "gorsel_yolu": "../images/p330.webp",
+        "secenekler": [
+            "Resmi tatile denk gelmeyen cumartesi günleri saat 09.00'da park etmeye izin verilir",
+            "Hafta içi günlerde saat 15.00'te park etmeye izin verilir",
+            "Pazar günleri saat 08.00'de park etmeye izin verilir"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Park etmek hafta içi saat 09.00–17.00 arasında ve pazar veya resmi tatil günlerinden önceki hafta içi günlerinde saat 08.00–15.00 arasında yasaktır. Diğer zamanlarda park etmeye izin verilir. Ek levhada yer almayan cumartesi günleri park yapılabilir."
+    },
+    {
+        "id": 331,
+        "soru": "Trafik kazalarında ölenlerin ne kadarlık bir oranı kaza anında emniyet kemeri takmamıştır?",
+        "gorsel_yolu": "../images/p331.webp",
+        "secenekler": [
+            "Yaklaşık %10",
+            "Yaklaşık %25",
+            "Yaklaşık %40",
+            "Yaklaşık %75"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Trafikverket ve onların ölümlü kazalar üzerine yaptığı derinlemesine incelemelere göre, binek araçlarda hayatını kaybeden kişilerin yaklaşık %40'ı emniyet kemeri takmamıştır."
+    },
+    {
+        "id": 332,
+        "soru": "Ana yolda geçtikten sonra ne geçerli olur?",
+        "gorsel_yolu": "../images/p332.webp",
+        "secenekler": [
+            "Yolda geri dönmek yasaktır",
+            "Azami hız her zaman 50 km/s'dir",
+            "Azami hız her zaman 70 km/s'dir",
+            "Bağlantı yollarından gelenlerin yol vermesi gerekir"
+        ],
+        "dogru_index": 3,
+        "aciklama": "Ana yolda geçiş üstünlüğüne sahip olursunuz. Bağlantı yollarından gelen trafik size yol vermek ve yola çıkmanın güvenli olmasını beklemek zorundadır."
+    },
+    {
+        "id": 333,
+        "soru": "Aracınızı oto yıkamada yıkadıktan sonra trafik güvenliği için neyi kontrol etmelisiniz?",
+        "gorsel_yolu": "../images/p333.webp",
+        "secenekler": [
+            "Soğutma sisteminin çalıştığını",
+            "Elektrik sisteminin çalıştığını",
+            "Direksiyon hidroliğinin (servosunun) çalıştığını",
+            "Frenlerin çalıştığını"
+        ],
+        "dogru_index": 3,
+        "aciklama": "Aracı yıkadıktan sonra, olası nemi kurutmak ve frenlerin tam işlevsel olduğundan emin olmak için hafifçe fren yaparak frenlerin çalıştığını kontrol etmelisiniz. Yıkamadan sonra frenler geçici olarak etkisiz olabileceğinden, bu durum aracın sürüş güvenliğini garanti etmek açısından önemlidir."
+    },
+    {
+        "id": 334,
+        "soru": "Bir araç tarafından sollanıyorsunuz ve sollama sırasında bu araç karşıdan gelen başka bir araçla çarpışıyor. Sizin aracınız hasar görmüyor. Kaza yerinde durmazsanız cezalandırılabilir misiniz?",
+        "gorsel_yolu": "../images/p334.webp",
+        "secenekler": [
+            "Hayır, çünkü kazaya ben neden olmadım",
+            "Hayır, çünkü böyle bir durumda tanıklık yapmak zorunda değilim",
+            "Hayır, çünkü benim aracım hasar görmedi",
+            "Evet, olay yerini terk etmekten yargılanabilirim"
+        ],
+        "dogru_index": 3,
+        "aciklama": "Bir çarpışmanın ardından kaza yerinde kalmazsanız, kaza yerini terk etmekle suçlanabilirsiniz. Doğrudan dâhil olmamış olsanız bile bilgi vermeden veya yardım etmeden kaza yerinden ayrılmak bir suçtur. Olay yerinde kalmak ve kazayı bildirmek hukuki bir zorunluluktur."
+    },
+    {
+        "id": 335,
+        "soru": "Resimdeki yayanın yanından nasıl geçmelisiniz?",
+        "gorsel_yolu": "../images/p335.webp",
+        "secenekler": [
+            "Hızı azaltmak ve yan taraftan güvenli bir mesafe bırakarak geçmek",
+            "Hızı artırmak ve yan taraftan güvenli mesafe bırakarak hızlıca geçmek",
+            "Arkamdaki trafiği şaşırtmamak için hızı ve konumumu korumak",
+            "Hızı korumak ve yan taraftan güvenli bir mesafe bırakarak geçmek"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Bir yayanın yanından geçerken hızı azaltmalı ve yan tarafta yeterli bir mesafe bırakarak geçmelisiniz. Bu durum yayaya yeterli alan sağlar ve kaza riskini azaltır. Yol kenarlarındaki yayalara karşı her zaman ekstra dikkatli olmak önemlidir."
+    },
+    {
+        "id": 336,
+        "soru": "Sağ tarafta bulunan ek levhalı yol işareti ne anlama gelir?",
+        "gorsel_yolu": "../images/p336.webp",
+        "secenekler": [
+            "Sağda bisiklet ve moped trafiği yasağı",
+            "Bisikletliler ve moped sürücüleri için zorunlu sürüş yönü",
+            "Bisikletliler veya moped sürücüleri dönüşten sonra sık sık yoldan karşıya geçer veya yola girer"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Ek levhalı yol işareti, bisikletlilerin veya moped sürücülerinin virajdan/dönüşten sonra sık sık yoldan karşıya geçtiği veya yola girdiği konusunda uyarır. Bu durum, bölgedeki bisikletlilere ve moped kullanıcılarına karşı ekstra dikkatli olunması gerektiğine dair bir hatırlatmadır. Hızınızı ayarlayın ve gerektiğinde onlara geçiş hakkı vermeye hazır olun."
+    },
+    {
+        "id": 337,
+        "soru": "Sürücü ağır alkollü araç kullanma suçu işlerse bunun yaptırımı ne olur?",
+        "gorsel_yolu": "../images/p337.webp",
+        "secenekler": [
+            "Sadece ehliyetin geri alınması",
+            "Ehliyetin geri alınması ve hapis cezası",
+            "Sadece para cezası"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Alkollü araç kullanma: Para cezası veya en fazla 6 ay hapis cezası. Ağır alkollü araç kullanma: En fazla 2 yıl hapis cezası. Her iki durumda da ehliyet geri alınır."
+    },
+    {
+        "id": 338,
+        "soru": "Aksi belirtilmedikçe, bu yol işareti geçerli olduğunda ne yapmak yasaktır?",
+        "gorsel_yolu": "../images/p338.webp",
+        "secenekler": [
+            "Telefon araması yapmak için arabayı durdurmak",
+            "Yük indirmek için arabayı durdurmak",
+            "Yolcu almak için arabayı durdurmak",
+            "Yolcu indirmek için arabayı durdurmak"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Araç herhangi bir faaliyet olmaksızın duruyorsa bu durum park etme sayılır. Araç yolcu indirmek/bindirmek veya yük yüklemek/boşaltmak için duruyorsa bu duraklamadır. Ana yolda gerektiğinde duraklayabilirsiniz ancak park edemezsiniz. Örneğin telefon araması yapmak için durmak park etme sayılır ve bu nedenle ana yolda izin verilmez."
+    },
+    {
+        "id": 339,
+        "soru": "Durumlardan hangisinde sesli ikaz (korna) kullanmak uygun olabilir?",
+        "gorsel_yolu": "../images/p339.webp",
+        "secenekler": [
+            "Durum A",
+            "Durum B",
+            "Durum C",
+            "Durum D"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Tehlike riskinin bulunduğu C durumunda, bisikletlileri uyarmak için sesli ikaz (korna) kullanmak uygun olabilir. Kornayı yalnızca kazaları önlemek amacıyla kullanın, öfke veya sinirinizi göstermek için kullanmayın."
+    },
+    {
+        "id": 340,
+        "soru": "Aracınızda bagaj bulunması yakıt tüketimini etkiler mi?",
+        "gorsel_yolu": "../images/p340.webp",
+        "secenekler": [
+            "Hayır, çünkü bunu sürüş tekniğimle kolayca telafi edebilirim",
+            "Evet, ağırlık ve yakıt tüketimi birbiriyle bağlantılıdır",
+            "Hayır, ancak daha iyi bir yol tutuşu sağlar"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Evet, bagaj ve ağırlık yakıt tüketimini etkiler; çünkü daha ağır bir aracın hareket etmesi için daha fazla enerji gerekir. Aracınızda ne kadar çok ağırlık varsa, yakıt tüketimi o kadar yüksek olur. Bu nedenle yakıttan tasarruf etmek için araçta gereksiz eşyalar bulundurmaktan kaçınmak iyidir."
+    },
+    {
+        "id": 341,
+        "soru": "Aracın egzoz emisyonlarını azaltmak için nasıl sürmelisiniz?",
+        "gorsel_yolu": "../images/p341.webp",
+        "secenekler": [
+            "Hızlıca hızlanırım ve her vites değişiminde tam gaz veririm",
+            "Sürüşü planlayarak gereksiz duruşlardan kaçınırım",
+            "Motor freni yapmaktan olabildiğince kaçınırım",
+            "Öndeki araca yakın mesafeden sürerim"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Aracın egzoz emisyonlarını azaltmak için gereksiz duruşlardan ve hızlanmalardan kaçınacak şekilde sürüşünüzü planlamalısınız. Düzenli bir hız ve öngörülü sürüş, daha yakıt tasarruflu bir sürüş sağlar; bu da emisyonları azaltır ve yakıttan tasarruf ettirir. Bu hem çevreye hem de aracın uzun vadeli dayanıklılığına katkıda bulunur."
+    },
+    {
+        "id": 342,
+        "soru": "Hangi seçenek bir binek aracın ön tarafında bulunması gereken TÜM aydınlatmaları içerir?",
+        "gorsel_yolu": "../images/p342.webp",
+        "secenekler": [
+            "Uzun farlar, kısa farlar ve sinyal lambaları",
+            "Uzun farlar, park lambaları, sis farları ve sinyal lambaları",
+            "Uzun farlar, kısa farlar, park lambaları ve sinyal lambaları",
+            "Uzun farlar, kısa farlar, sis farları ve sinyal lambaları"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Bir binek aracın ön tarafında zorunlu olarak bulunması gereken aydınlatmalar: uzun farlar, kısa farlar, park lambaları ve sinyal lambalarıdır. Sis farları ise isteğe bağlı bir donanımdır, bulunması zorunlu değildir."
+    },
+    {
+        "id": 343,
+        "soru": "Sollanırken nasıl davranmalısınız?",
+        "gorsel_yolu": "../images/p343.webp",
+        "secenekler": [
+            "Sollamanın uygun olmadığını değerlendirsem bile sollamayı kolaylaştırmaya çalışmakla yükümlüyüm",
+            "Sollamanın uygun olmadığını değerlendirirsem sollamayı engellemeye çalışmakla yükümlüyüm",
+            "Hızımı azaltmakla yükümlüyüm",
+            "Emniyet şeridine çıkmakla yükümlüyüm"
+        ],
+        "dogru_index": 0,
+        "aciklama": "Sollanırken sollamayı kolaylaştırmakla yükümlüsünüz; ancak bu sadece güvenli bir şekilde yapılabiliyorsa geçerlidir. Sollama uygunsuz/tehlikeli görünse bile istikrarlı bir sürüş sürdürmeli ve sollayan aracı engellememelisiniz."
+    },
+    {
+        "id": 344,
+        "soru": "Komşunuzun küçük bir erkek çocuğu yaralandı ve çocuğu annesiyle birlikte hastaneye götürmeniz gerekiyor. Arabanızda çocuk koltuğu veya yükseltici minder yok. Yolculuk sırasında çocuk nasıl oturmalıdır?",
+        "gorsel_yolu": "../images/p344.webp",
+        "secenekler": [
+            "Annesinin kucağında oturmalı ve onunla aynı emniyet kemerini kullanmalıdır",
+            "Arka koltukta kendi yerinde oturmalı ve emniyet kemerini kullanmalıdır",
+            "Annesinin kucağında oturmalı ama emniyet kemeri kullanmamalıdır"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Bir çocuğun hastaneye taşınması gerekiyorsa ve uygun çocuk koruma ekipmanı yoksa, durum bir acil durum olduğu için çocuğu bu şekilde taşıyabilirsiniz. Ancak güvenlik gereği çocuk kucakta değil, kendi koltuğunda emniyet kemeri takılı olarak oturmalıdır."
+    },
+    {
+        "id": 345,
+        "soru": "2004 model benzinli bir otomobil satın aldınız. Bu aracı trafikte kullanabilmek için ne gereklidir?",
+        "gorsel_yolu": "../images/p345.webp",
+        "secenekler": [
+            "Sadece trafik sigortasının yapılmış olması",
+            "Sadece taşıt vergisinin ödenmiş olması ve trafik sigortasının yapılmış olması",
+            "Aracın muayeneden geçmiş olması, taşıt vergisinin ödenmiş olması ve trafik sigortasının yapılmış olması",
+            "Sadece taşıt vergisinin ödenmiş olması"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Aracın trafikte kullanılabilmesi için aşağıdaki şartların sağlanması gerekir: Araç muayenesinin yapılmış olması, taşıt vergisinin ödenmiş olması ve en az zorunlu trafik sigortasının yapılmış olması."
+    },
+    {
+        "id": 346,
+        "soru": "Kış yol şartlarının olduğu bir günde lastiğiniz patladı. Geçici yedek lastik ile değiştirdiniz. Sürüşe devam edebilir misiniz?",
+        "gorsel_yolu": "../images/p346.webp",
+        "secenekler": [
+            "Evet, acil durum tekerleği ile sürüş yapmanın hiçbir kısıtlaması yoktur",
+            "Hayır, kış yol şartlarında acil durum tekerleği ile sürmeme izin verilmez",
+            "Evet, ancak acil durum tekerleğinde belirtilenden daha yüksek bir hızda sürmemeliyim",
+            "Hayır, aracın çekilmesini sağlamalıyım"
+        ],
+        "dogru_index": 2,
+        "aciklama": "Geçici yedek lastik kuralları: Acil durum tekerleği yalnızca geçici olarak kullanılır. Azami hız normalde 80 km/s'dir. Bu limit lastik üzerinde yazılıdır. Mümkün olan en kısa sürede normal bir tekerlekle değiştirin."
+    },
+    {
+        "id": 347,
+        "soru": "Yol işareti ne anlama gelir?",
+        "gorsel_yolu": "../images/p347.webp",
+        "secenekler": [
+            "Bir devlet yoluna yönlendirme",
+            "Trafik yönlendirmesini/sapmasını gösteren yol numarası işareti",
+            "Kavşak/köprülü kavşak numarası"
+        ],
+        "dogru_index": 2,
+        "aciklama": "\"Kavşak/köprülü kavşak numarası\" yol işareti, sürücülerin özellikle birden fazla kavşağın bulunduğu büyük yollarda doğru çıkışı tanımlamasına ve bulmasına yardımcı olur. Navigasyonu kolaylaştırır ve doğru hedefe giden yol tabelalarını takip etmeyi daha basit hale getirir."
+    },
+    {
+        "id": 348,
+        "soru": "Kavşakta sağa döneceksiniz. Nasıl yapmalısınız?",
+        "gorsel_yolu": "../images/p348.webp",
+        "secenekler": [
+            "Kavşağa kadar bisikletlinin önüne geçmek için yolun diğer yarısını kullanırım",
+            "Bisikletli kavşakta dönene kadar beklerim",
+            "Sollamak istediğimi bisikletliye bildirmek için korna çalarım",
+            "Orta çizgiyi ihlal etmeden kavşaktan önce bisikletliyi sollarım"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Önce bisikletli dönmeli, ardından siz dönmelisiniz. Burada bisikletlileri gereksiz yere sollamanıza gerek yoktur. Bisiklet de bir araçtır."
+    },
+    {
+        "id": 349,
+        "soru": "Emniyet şeridi hakkında hangi ifade doğrudur?",
+        "gorsel_yolu": "../images/p349.webp",
+        "secenekler": [
+            "Emniyet şeridi bir şerit sayılır",
+            "Emniyet şeridi diğerlerinin yanı sıra korumasız yol kullanıcıları için tasarlanmıştır",
+            "Tüm yol kullanıcıları emniyet şeridini kullanabilir ancak kimsenin bunu yapma zorunluluğu yoktur",
+            "Sollanırken her zaman emniyet şeridini kullanmakla yükümlüyüm"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Emniyet şeridi; yayalar, bisikletliler ve moped sürücüleri gibi korumasız yol kullanıcıları için tasarlanmıştır ve araçlar tarafından acil durumlarda da kullanılabilir. Herkes için güvenli bir trafik ortamı sağlamak adına emniyet şeridini engellerden uzak tutmak önemlidir."
+    },
+    {
+        "id": 350,
+        "soru": "Ön camın iç kısmında buğulanma oluştu. Buğuyu en kısa sürede gidermek için hangi düğmeye basmalısınız?",
+        "gorsel_yolu": "../images/p350.webp",
+        "secenekler": [
+            "Düğme A",
+            "Düğme B",
+            "Düğme C",
+            "Düğme D",
+            "Düğme E"
+        ],
+        "dogru_index": 1,
+        "aciklama": "Ön camdaki buğuyu hızla gidermek için buğu çözme (defrost) fonksiyonunu etkinleştiren B düğmesine basmalısınız; bu genellikle hava akışının ön cama yönlendirilmesini sağlar."
     }
 ]
