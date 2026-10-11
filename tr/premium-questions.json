@@ -3743,17 +3743,17 @@
         "aciklama": "Bir sığına çarpılması durumunda, hayvan kaçıp gitmiş görünse dahi polise bilgi verilmesi zorunludur. Yaralı hayvanın takibi ve acısının dindirilmesi için yetkililerin bilgilendirilmesi gerekir."
     },
     {
-        "id": 296,
-        "soru": "Gündüz vakti siste sürüş yaparken hangi aydınlatmayı kullanabilirsiniz?",
-        "gorsel_yolu": "../images/p296.webp",
-        "secenekler": [
-            "Kısa farlar ile birlikte sis farları",
-            "Park lambaları ile birlikte sis farları",
-            "Sadece park lambaları"
-        ],
-        "dogru_index": 0,
-        "aciklama": "Gündüz vakti siste, görünürlüğü artırmak ve görüşü iyileştirmek için kısa farlar ile birlikte sis farlarını kullanmalısınız. Sis farları, sisli koşullarda daha iyi görüş sağlamak üzere özel olarak tasarlanmıştır. Diğer sürücülerin gözünü alabileceği için uzun farları kullanmaktan kaçınmak önemlidir."
-    },
+  "id": 296,
+  "soru": "Gündüz vakti siste sürüş yaparken hangi aydınlatmayı kullanabilirsiniz?",
+  "gorsel_yolu": "../images/p296.webp",
+  "secenekler": [
+    "Kısa farlar ile birlikte sis farları",
+    "Park lambaları ile birlikte sis farları",
+    "Sadece park lambaları"
+  ],
+  "dogru_index": 1,
+  "aciklama": "İsveç trafik kurallarına göre ön sis farları (dimljus) ile kısa farların (halvljus) aynı anda kullanılması yasaktır. Sis, yoğun kar veya şiddetli yağmur gibi durumlarda görüşü iyileştirmek için sis farları, kısa farların yerine park lambaları (parkeringsljus) ile birlikte kullanılmalıdır."
+},
     {
         "id": 297,
         "soru": "Trafikte ağır yaralanan sürücülerin çoğu bu gruplardan hangisinde yer almaktadır?",
