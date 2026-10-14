@@ -5442,7 +5442,7 @@
     {
         "id": 430,
         "soru": "Araba trafiği atmosferdeki sera gazlarının artmasına katkıda bulunur. Bu artış Dünya'yı nasıl etkiler?",
-        "gorsel_yolu": "../images/p430.webp",
+        "gorsel_yolu": "../images/p431.webp",
         "secenekler": [
             "Manyetik alanlar güçlenir",
             "Ortalama sıcaklık düşer",
@@ -5455,7 +5455,7 @@
     {
         "id": 431,
         "soru": "Otobüse yaklaşıyorsunuz. Bu durumda en aldatıcı (tehlikeli) olan nedir?",
-        "gorsel_yolu": "../images/p431.webp",
+        "gorsel_yolu": "../images/p430.webp",
         "secenekler": [
             "Kavşakta soldan bir arabanın gelebilmesi",
             "Otobüsün yaya geçidindeki yayaların görünmesini engelleyebilmesi",
