@@ -616,7 +616,7 @@
             <i class="fa-solid fa-crown"></i> Premium
         </a>
         <h1>Premium Testler</h1>
-        <p class="subtitle">490 özel soru ile İsveç ehliyet sınavına bir adım önde hazırlanın.</p>
+        <p class="subtitle">560 özel soru ile İsveç ehliyet sınavına bir adım önde hazırlanın.</p>
     </header>
 
     <main>
@@ -744,6 +744,22 @@
                         <i class="fa-solid fa-play"></i> Testi Başlat
                     </div>
                 </div>
+
+                <!-- Premium Test 8 -->
+                <div class="test-card" id="premiumTest8Card" onclick="handleTestCardClick(8)">
+                    <span class="lock-badge" id="lockBadge8">
+                        <i class="fa-solid fa-lock"></i> Kilitli
+                    </span>
+                    <div>
+                        <div class="card-icon"><i class="fa-solid fa-crown"></i></div>
+                        <h3>Premium Test 8</h3>
+                        <div class="card-line1">491-560 arası sorular</div>
+                        <div class="card-line2">İsveç ehliyet sınavı için ileri seviye hazırlık.</div>
+                    </div>
+                    <div class="card-btn">
+                        <i class="fa-solid fa-play"></i> Testi Başlat
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -852,7 +868,8 @@
             4: 'premiumStatus_tr_test4',
             5: 'premiumStatus_tr_test5',
             6: 'premiumStatus_tr_test6',
-            7: 'premiumStatus_tr_test7'
+            7: 'premiumStatus_tr_test7',
+            8: 'premiumStatus_tr_test8'
         };
 
         let allQuestions = [];
@@ -923,7 +940,7 @@
         function updateLockBadges() {
             const hasAccess = sessionStorage.getItem('premiumAccess') === 'true';
 
-            [1, 2, 3, 4, 5, 6, 7].forEach(num => {
+            [1, 2, 3, 4, 5, 6, 7, 8].forEach(num => {
                 const badge = document.getElementById('lockBadge' + num);
                 const card = document.getElementById('premiumTest' + num + 'Card');
                 if (!badge || !card) return;
@@ -977,7 +994,7 @@
 
         function resetPremiumProgress() {
             if (confirm('Tüm premium test ilerlemeniz silinecek. Emin misiniz?')) {
-                [1, 2, 3, 4, 5, 6, 7].forEach(num => {
+                [1, 2, 3, 4, 5, 6, 7, 8].forEach(num => {
                     localStorage.removeItem(PREMIUM_STORAGE_KEYS[num]);
                     const card = document.getElementById('premiumTest' + num + 'Card');
                     if (card) {
@@ -1062,8 +1079,10 @@
                 startId = 281; endId = 350;
             } else if (testNum === 6) {
                 startId = 351; endId = 420;
-            } else {
+            } else if (testNum === 7) {
                 startId = 421; endId = 490;
+            } else {
+                startId = 491; endId = 560;
             }
 
             const testQuestions = allQuestions.filter(q => q.id >= startId && q.id <= endId);
