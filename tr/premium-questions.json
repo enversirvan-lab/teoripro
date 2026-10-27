@@ -5041,7 +5041,7 @@
         "soru": "Aracınızı muayene ettirdiniz. Herhangi bir bildirim (tamir emri/kusur) almadınız ancak araçta daha küçük kusurlar vardı. Ne yapmalısınız?",
         "gorsel_yolu": "../images/p398.webp",
         "secenekler": [
-            "Hataları en kısa sürede gideririm ancak arabayı tekrar muayene ettirmem gerekir",
+            "Hataları en kısa sürede gideririm ancak arabayı tekrar muayene ettirmem gerekmez.",
             "Hataları en kısa sürede gideririm ve arabayı muayene ettiririm",
             "Aracı tamirhaneye bırakırım çünkü eksiklikleri yalnızca bir tamirhane giderebilir"
         ],
